@@ -1,0 +1,50 @@
+.rectangleParent {
+    align-self: stretch;
+    border-radius: 2px;
+    background-color: #ef8422;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    max-width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Armata;
+}
+
+.imageContainer,
+.textContainer {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frameChild {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    .rectangleParent {
+        flex-direction: column;
+    }
+
+    .imageContainer,
+    .textContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rectangleParent {
+        gap: 22px;
+    }
+}

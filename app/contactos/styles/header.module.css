@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Armata, sans-serif;
+    width: 100%;
+    top: 30px;
+}
+
+.officeInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 1172px;
+    height:500px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1025px) {
+    .officeInfo {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        font-size: 19px;
+    }
+
+    .officeInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+}

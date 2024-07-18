@@ -1,0 +1,96 @@
+.etRerumAtque,
+.loremIpsumDolor {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.loremIpsumDolorContainer {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+}
+.frameChild {
+    height: 77px;
+    width: 229px;
+    position: relative;
+    background-color: #248628;
+    display: none;
+}
+.leerMs {
+    flex: 1;
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    font-family: Armata;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+.frameContainer,
+.rectangleParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.rectangleParent {
+    cursor: pointer;
+    border: 0;
+    padding: 14px 27px 23px 28px;
+    background-color: #248628;
+    width: 229px;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+.rectangleParent:hover {
+    background-color: #4aad4f;
+}
+.frameContainer {
+    width: 593px;
+    justify-content: center;
+    padding: 0 20px;
+    max-width: 100%;
+}
+.frameWrapper,
+.loremIpsumDolorSitAmetNaParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+.loremIpsumDolorSitAmetNaParent {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 107px;
+}
+.frameWrapper {
+    width: 617px;
+    align-items: flex-start;
+    padding: 15px 0 0;
+    box-sizing: border-box;
+    min-width: 617px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Armata;
+}
+@media screen and (max-width: 1300px) {
+    .frameWrapper {
+        flex: 1;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .loremIpsumDolorSitAmetNaParent {
+        gap: 53px;
+    }
+    .frameWrapper {
+        min-width: 100%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .loremIpsumDolorContainer {
+        font-size: 19px;
+    }
+    .loremIpsumDolorSitAmetNaParent {
+        gap: 27px;
+    }
+}

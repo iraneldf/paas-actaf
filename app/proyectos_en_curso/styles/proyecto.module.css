@@ -1,0 +1,118 @@
+.projectLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projectLink:hover,
+.projectLink:focus,
+.projectLink:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ... resto de los estilos ... */
+.projectCardWrapper {
+    padding: 20px 40px 0 60px;
+    box-sizing: border-box;
+    font-family: Armata, sans-serif;
+    color: #000;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.projectCardWrapper:hover {
+    transform: scale(1.03);
+}
+
+.projectCard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(36, 134, 40, 0.6);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cardImageIcon {
+    width: 100%;
+    max-width: 241px;
+    height: auto;
+    object-fit: cover;
+}
+
+.cardContent {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.cardTitleDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detailRow {
+    display: flex;
+    align-items: flex-start;
+}
+
+.detailLabel {
+    font-weight: bold;
+    min-width: 120px;
+    padding-right: 10px;
+}
+
+.detailContent {
+    flex: 1;
+}
+
+.hoverOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    font-size: 1.2em;
+}
+
+.projectCardWrapper:hover .hoverOverlay {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .projectCard {
+        flex-direction: column;
+    }
+
+    .cardImageIcon {
+        max-width: 100%;
+    }
+
+    .detailRow {
+        flex-direction: column;
+    }
+
+    .detailLabel {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .detailLabel,
+    .detailContent {
+        font-size: 14px;
+    }
+}

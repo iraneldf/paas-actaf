@@ -1,0 +1,68 @@
+.contactDetailsChild {
+    width: 298px;
+    height: 300px;
+    position: relative;
+    background-color: #fff;
+    display: none;
+}
+.frameChild {
+    height: 113px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 2;
+}
+.contactDetailsInner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 53px 0 51px;
+}
+.div,
+.nmeroDeTelfono {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+}
+.nmeroDeTelfono {
+    text-transform: uppercase;
+}
+.div {
+    font-size: 20px;
+}
+.contactDetails,
+.nmeroDeTelfonoParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.nmeroDeTelfonoParent {
+    align-self: stretch;
+    gap: 2px;
+}
+.contactDetails {
+    width: 298px;
+    height: 298px;
+    background-color: #fff;
+    padding: 14px 31px 63px 33px;
+    box-sizing: border-box;
+    gap: 23px;
+    z-index: 1;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Armata;
+}
+@media screen and (max-width: 450px) {
+    .nmeroDeTelfono {
+        font-size: 19px;
+    }
+    .div {
+        font-size: 16px;
+    }
+}

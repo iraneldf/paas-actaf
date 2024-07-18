@@ -1,0 +1,67 @@
+.frameChild,
+.frameInner,
+.frameItem,
+.rectangleDiv {
+    height: 96px;
+    flex: 1;
+    position: relative;
+    background-color: #d9d9d9;
+    min-width: 140px;
+    max-width: 152px;
+}
+.rectangleParent {
+    width: 653px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    max-width: 100%;
+}
+.ellipseIcon,
+.frameChild1 {
+    height: 62px;
+    width: 66px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    min-height: 62px;
+}
+.ellipseParent,
+.foother,
+.footherInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.ellipseParent {
+    flex-direction: row;
+    gap: 24px;
+}
+.foother,
+.footherInner {
+    flex-direction: column;
+    padding: 17px 0 0;
+}
+.foother {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 32px 25px 20px;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+    gap: 20px;
+}
+@media screen and (max-width: 767px) {
+    .foother {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 450px) {
+    .rectangleParent {
+        flex-wrap: wrap;
+    }
+}

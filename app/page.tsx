@@ -1,8 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import FotoInicio from "@/app/Components/layouts/Inicio";
+import Root from "@/app/Components/Root";
 
 export default function Home() {
   return (
-    <h1>PASS-ACTAF</h1>
+
+      <>
+          <FotoInicio/>
+          <Root/>
+      </>
+
   );
 }

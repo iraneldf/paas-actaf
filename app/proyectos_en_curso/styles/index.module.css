@@ -1,0 +1,54 @@
+.proyectosEnCurso {
+    width: 100%;
+    position: relative;
+    border-radius: 2px;
+    background-color: #e9e2e2;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 50px;
+    gap: 35px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+    .proyectosEnCurso {
+        gap: 17px;
+    }
+}
+
+.nuestrosProyectosEn {
+    align-self: stretch;
+    position: relative;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-family: Armata;
+    color: #000;
+    text-align: center;
+}
+.nuestrosProyectosEnCursoParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    max-width: 100%;
+}
+@media screen and (max-width: 975px) {
+    .nuestrosProyectosEn {
+        font-size: 51px;
+    }
+    .nuestrosProyectosEnCursoParent {
+        gap: 18px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .nuestrosProyectosEn {
+        font-size: 38px;
+    }
+}
