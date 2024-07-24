@@ -32,7 +32,7 @@ const Main: NextPage = () => {
                     rectangle33="/rectangle-33@2x.png"
                     rectangle34="/rectangle-34@2x.png"
                 />
-                <FrameComponent1
+              {/*   <FrameComponent1
                     davidImage="/ellipse-7@2x.png"
                     rectangle36="/rectangle-36@2x.png"
                     rectangle37="/rectangle-37@2x.png"
@@ -46,7 +46,7 @@ const Main: NextPage = () => {
                     davidImageContainer="/ellipse-9@2x.png"
                     rectangle33="/rectangle-42@2x.png"
                     rectangle34="/rectangle-43@2x.png"
-                />
+                /> */}
             </section>
 
         </div>
