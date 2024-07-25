@@ -10,7 +10,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
     return (
         <section className={`${styles.rectangleParent} ${className}`}>
             <div className={styles.imageContainer}>
-                <img className={styles.frameChild} loading="lazy" alt="" src="/images/frutas.png" />
+                <img className={styles.frameChild} loading="lazy" alt="" src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/frutas.png`} />
             </div>
             <div className={styles.textContainer}>
                 <FrameComponent />
