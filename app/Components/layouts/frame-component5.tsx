@@ -7,6 +7,7 @@ export type FrameComponent5Type = {
 };
 
 const FrameComponent5: NextPage<FrameComponent5Type> = ({className = ""}) => {
+
     return (
         <div className={[styles.root, className].join(" ")}>
             <FrameComponent1 ellipse2=" /images/uvas.png"/>

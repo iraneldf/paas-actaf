@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === 'production'
+const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
+
 
 const nextConfig = {
-    basePath: isProd ? '/paas-actaf/': '',
-    assetPrefix: isProd ? '/paas-actaf/' : '',
+    basePath: isGitHubPages ? '/paas-actaf': '',
+    assetPrefix: isGitHubPages ? '/paas-actaf/' : '',
+    trailingSlash: true,
     output: "export", // Habilita exportaciones estáticas
     images: {
         unoptimized: true,
