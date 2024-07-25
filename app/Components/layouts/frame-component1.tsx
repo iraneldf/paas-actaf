@@ -20,7 +20,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({className = "", ellipse
                     src={ellipse2}
                 />
             </div>
-            <div className={styles.ttulo}>Título</div>
+            <div className={styles.ttulo}>Título 1</div>
             <div className={styles.loremIpsumDolor}>
                 Lorem ipsum dolor sit amet. Est galisum rerum aut dicta dolorem ut
                 officiis fugit ab magni ducimus aut tenet distinctio inventore.
