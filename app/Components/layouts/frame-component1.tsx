@@ -1,5 +1,6 @@
 import type {NextPage} from "next";
 import styles from "../styles/frame-component1.module.css";
+import Image from "next/image";
 
 export type FrameComponent1Type = {
     className?: string;
@@ -12,12 +13,13 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({className = "", ellipse
             <div className={styles.layoutChild}/>
             <div className={styles.layoutInner}>
 
-                <img
+                <Image
+                    width={100}
+                    height={100}
                     className={styles.frameChild}
                     loading="lazy"
                     alt=""
-
-                    src={`${ellipse2}`}
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}${ellipse2}`}
                 />
             </div>
             <div className={styles.ttulo}>Título</div>

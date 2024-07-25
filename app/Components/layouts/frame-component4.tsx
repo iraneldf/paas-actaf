@@ -1,6 +1,7 @@
 import type {NextPage} from "next";
 import FrameComponent from "./frame-component";
 import styles from "../styles/frame-component4.module.css";
+import Image from "next/image";
 
 export type FrameComponent4Type = {
     className?: string;
@@ -13,7 +14,13 @@ const FrameComponent4: NextPage<FrameComponent4Type> = ({className = ""}) => {
                 <FrameComponent/>
             </div>
             <div className={styles.imageContainer}>
-                <img className={styles.frameChild} loading="lazy" alt="frutas.png" src="/images/vaca.png"></img>
+                <Image 
+                    width={100}
+                    height={100}
+                    className={styles.frameChild} 
+                    loading="lazy"
+                    alt="frutas.png"
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/vaca.png`}/>
             </div>
         </section>
     );

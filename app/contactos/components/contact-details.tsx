@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import styles from "../styles/contact-details.module.css";
+import Image from "next/image";
 
 export type ContactDetailsType = {
     className?: string;
@@ -18,11 +19,13 @@ const ContactDetails: NextPage<ContactDetailsType> = ({
         <div className={[styles.contactDetails, className].join(" ")}>
             <div className={styles.contactDetailsChild} />
             <div className={styles.contactDetailsInner}>
-                <img
+                <Image
+                    width={100}
+                    height={100}
                     className={styles.frameChild}
                     loading="lazy"
                     alt=""
-                    src={rectangle23}
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}${rectangle23}`}
                 />
             </div>
             <div className={styles.nmeroDeTelfonoParent}>

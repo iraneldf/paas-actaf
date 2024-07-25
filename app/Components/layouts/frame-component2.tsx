@@ -77,7 +77,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({className = ""}) => {
                     width={500}
                     height={300}
                     alt=""
-                    src="/images/Foto1.png"
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto1.png`}
                 />
                 <Image
                     className={styles.foto2Icon}
@@ -85,7 +85,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({className = ""}) => {
                     alt=""
                     width={500}
                     height={300}
-                    src="/images/Foto2.png"
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto2.png`}
                 />
                 <Image
                     className={styles.foto4Icon}
@@ -93,7 +93,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({className = ""}) => {
                     alt=""
                     width={500}
                     height={300}
-                    src="/images/Foto3.png"
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto3.png`}
                 />
                 <Image
                     className={styles.foto3Icon}
@@ -101,7 +101,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({className = ""}) => {
                     alt=""
                     width={500}
                     height={300}
-                    src="/images/Foto4.png"
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto4.png`}
                 />
             </div>
         </section>

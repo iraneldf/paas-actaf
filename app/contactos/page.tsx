@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
-import Header from "./components/header";
+import ContactHeader from "./components/header";
 import styles from "./styles/index.module.css";
+import Image from "next/image";
 
 const Root: NextPage = () => {
     return (
         <div className={styles.root}>
-            <Header className={styles.header} />
+            <ContactHeader className={styles.header} />
             <div className={styles.container}>
                 <div className={styles.formMapContainer}>
                     <div className={styles.form}>
@@ -31,10 +32,12 @@ const Root: NextPage = () => {
                         </div>
                     </div>
                     <div className={styles.mapContainer}>
-                        <img
+                        <Image
+                            width={1000}
+                            height={1000}
                             className={styles.buttonShapeIcon}
                             alt=""
-                            src="/images/contactos/mapa.png"
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/contactos/mapa.png`}
                         />
                     </div>
                 </div>

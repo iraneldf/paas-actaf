@@ -1,6 +1,7 @@
 import type {NextPage} from "next";
 import styles from "../styles/proyecto.module.css";
 import Link from 'next/link';
+import Image from "next/image";
 
 export type FrameComponentType = {
     className?: string;
@@ -17,11 +18,13 @@ const ProyectoItem: NextPage<FrameComponentType> = ({
         <Link href={projectLink} className={styles.projectLink}>
             <section className={`${styles.projectCardWrapper} ${className}`}>
                 <div className={styles.projectCard}>
-                    <img
+                    <Image
+                        width={100}
+                        height={100}
                         className={styles.cardImageIcon}
                         loading="lazy"
                         alt="Proyecto"
-                        src={cardImage}
+                        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}${cardImage}`}
                     />
                     <div className={styles.cardContent}>
                         <div className={styles.cardTitleDescription}>

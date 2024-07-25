@@ -1,110 +1,49 @@
-.headerChild {
-    height: 128px;
-    width: 1441px;
-    position: relative;
-    background-color: #fff;
-    display: none;
-    max-width: 100%;
-}
-
-.logo {
-    height: 124px;
-    width: 244px;
-    position: relative;
-    background-color: #248628;
-}
-
-.proyectosEnCurso,
-.quinesSomos {
-    text-decoration: none;
-    position: absolute;
-    color: inherit;
-    display: inline-block;
-}
-
-.quinesSomos {
-    top: 0;
-    left: 0;
-    font-family: Armata;
-    width: 133px;
-    height: 57.8px;
-}
-
-.proyectosEnCurso {
-    top: 2.5px;
-    left: 133px;
-    width: 132px;
-    height: 58px;
-}
-
-.proyectosTerminados {
-    text-decoration: none;
-    top: 5.2px;
-    left: 261px;
-    color: inherit;
-    width: 137px;
-    height: 51.2px;
-}
-
-.contactos,
-.productosYResultados,
-.proyectosTerminados {
-    position: absolute;
-    display: inline-block;
-}
-
-.productosYResultados {
-    height: calc(100% - 2.5px);
-    text-decoration: none;
-    top: 2.5px;
-    left: 393px;
-    width: 294px;
-    color: inherit;
-}
-
-.contactos {
-    text-decoration: none;
-    top: 20px;
-    left: 669px;
-    width: 175px;
-    height: 30px;
-    color: inherit;
-}
-
-.aboutProjects {
-    align-self: stretch;
-    height: 68.5px;
-    position: relative;
-}
-
-.aboutProjectsWrapper,
 .header {
     display: flex;
-    align-items: flex-start;
-    box-sizing: border-box;
-    /*background-color: white;*/
-}
-
-.aboutProjectsWrapper {
-    width: 844px;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 25.5px 0 0;
-    max-width: 100%;
-}
-
-.header {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 0 4px;
     line-height: normal;
     letter-spacing: normal;
-    gap: 20px;
     text-align: center;
     font-size: 24px;
     color: #000;
-    font-family: Orienta;
+}
+
+.logo {
+    height: 124px;
+    width: 244px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aboutProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* Cambiado para evitar que se desborde */
+    padding: 25.5px 0 0;
+    max-width: 100%;
+    /* Mantiene el contenedor dentro del ancho de la pantalla */
+    overflow: hidden;
+    /* Evita que el contenido se desborde */
+    gap: 20px;
+}
+
+.navItem {
+    text-decoration: none;
+    font-family: Armata;
+    max-width: 133px;
+    color: inherit;
+}
+
+.productosResultados {
+    min-width: 200px;
+    /* Asegúrate de que tenga un ancho mínimo */
+    max-width: 300px;
+    /* O establece un ancho máximo si es necesario */
 }
 
 @media screen and (max-width: 1108px) {
@@ -113,13 +52,16 @@
     }
 }
 
-@media screen and (max-width: 450px) {
-    .contactos,
-    .productosYResultados,
-    .proyectosEnCurso,
-    .proyectosTerminados,
-    .quinesSomos {
-        font-size: 19px;
+
+@media screen and (max-width: 768px) and (max-width: 450px) {
+    .header{
+        justify-content: center;
+    }
+    .aboutProjects {
+        flex-direction: column;
+        /* Cambiar a columna en pantallas más pequeñas */
+        align-items: center;
+        /* Centrar los elementos */
     }
 }
 

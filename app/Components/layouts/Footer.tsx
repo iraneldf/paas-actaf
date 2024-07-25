@@ -1,6 +1,7 @@
 'use client';
 import type {NextPage} from "next";
 import styles from "../styles/footer.module.css";
+import Image from "next/image";
 
 export type FootherType = {
     className?: string;
@@ -17,18 +18,22 @@ const Footer: NextPage<FootherType> = ({className = ""}) => {
             </div>
             <div className={styles.footherInner}>
                 <div className={styles.ellipseParent}>
-                    <img
+                    <Image
+                        width={100}
+                        height={100}
                         className={styles.ellipseIcon}
                         loading="lazy"
                         alt=""
 
-                        src="/images/facebook.png"
+                        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/facebook.png`}
                     />
-                    <img
+                    <Image
+                        width={100}
+                        height={100}
                         className={styles.frameChild1}
                         loading="lazy"
                         alt=""
-                        src="/images/whatsapp.png"
+                        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/whatsapp.png`}
                     />
                 </div>
             </div>

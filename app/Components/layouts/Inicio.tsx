@@ -9,7 +9,7 @@ const FotoInicio: NextPage = () => {
                 <Image
                     className={styles.stevenWeeksDupfowqi6oiUnsplIcon}
                     alt="Agricultura Sostenible"
-                    src="/steven-weeks-DUPFowqI6oI-unsplash 1.png"
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/steven-weeks-DUPFowqI6oI-unsplash 1.png`}
                     layout="fill"
                     objectFit="cover"
 

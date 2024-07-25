@@ -6,9 +6,11 @@ export type HeaderType = {
     className?: string;
 };
 
-const Header: NextPage<HeaderType> = ({ className = "" }) => {
+const ContactHeader: NextPage<HeaderType> = ({ className = "" }) => {
     return (
-        <div className={`${styles.header} ${className}`}>
+        <div
+            style={{ backgroundImage: `url(${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/contactos/fondo.png)` }}
+            className={`${styles.header} ${className}`}>
             <div className={styles.officeInfo}>
                 <ContactDetails
                     rectangle23="/images/contactos/ubicacion.png"
@@ -30,4 +32,4 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
     );
 };
 
-export default Header;
+export default ContactHeader;
