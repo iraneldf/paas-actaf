@@ -10,22 +10,25 @@ const ContactHeader: NextPage<HeaderType> = ({ className = "" }) => {
     return (
         <div
             style={{ backgroundImage: `url(${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/contactos/fondo.png)` }}
+
             className={`${styles.header} ${className}`}>
+
             <div className={styles.officeInfo}>
+                
                 <ContactDetails
-                    rectangle23="/images/contactos/ubicacion.png"
-                    nmeroDeTelfono="Ubiacion"
-                    prop="234-9876-5400"
+                    figura="/images/contactos/ubicacion.png"
+                    tipo="Ubiacion"
+                    numero="234-9876-5400"
                 />
                 <ContactDetails
-                    rectangle23="/images/contactos/telefono.png"
-                    nmeroDeTelfono="Número de teléfono"
-                    prop="234-9876-5400"
+                    figura="/images/contactos/telefono.png"
+                    tipo="Número de teléfono"
+                    numero="234-9876-5400"
                 />
                 <ContactDetails
-                    rectangle23="/images/contactos/correo.png"
-                    nmeroDeTelfono="correo electrónico"
-                    prop="prueba@gmail.com"
+                    figura="/images/contactos/correo.png"
+                    tipo="correo electrónico"
+                    numero="prueba@gmail.com"
                 />
             </div>
         </div>

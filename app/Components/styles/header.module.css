@@ -47,16 +47,22 @@
 }
 
 @media screen and (max-width: 1108px) {
-    .header {
+
+    .header,
+    .aboutProjects {
         flex-wrap: wrap;
     }
+         .header {
+             justify-content: center;
+         }
+    
 }
 
-
 @media screen and (max-width: 768px) and (max-width: 450px) {
-    .header{
+    .header {
         justify-content: center;
     }
+
     .aboutProjects {
         flex-direction: column;
         /* Cambiar a columna en pantallas más pequeñas */

@@ -42,7 +42,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
                     Productos y resultados del Programa
                 </Link>
                 <Link
-                    href={'/nuestroequipo'}
+                    href={'/nuestro_equipo'}
                     className={`${styles.navItem} ${pathname === '/nuestro_equipo/' ? styles.active : ''} `}>
                     Nuestro equipo
                 </Link>

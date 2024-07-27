@@ -5,18 +5,18 @@ import ProyectoItem from "@/app/proyectos_en_curso/components/proyectoItem";
 const ProyectosEnCurso: NextPage = () => {
     return (
         <main className={styles.proyectosEnCurso}>
-            <div
-                className={styles.nuestrosProyectosEnCursoParent}
-            >
-                <section className={styles.nuestrosProyectosEn}>
-                    Nuestros Proyectos en curso
-                </section>
 
-                <ProyectoItem cardImage="/images/proyectos_en_curso/proyecto1.png"/>
-                <ProyectoItem cardImage="/images/proyectos_en_curso/proyecto2.png"/>
-                <ProyectoItem cardImage="/images/proyectos_en_curso/proyecto3.png"/>
+            <section className={styles.titulo}>
+                Nuestros Proyectos en curso
+            </section>
+
+            <div className={styles.proyectosContenedor}>
+
+                <ProyectoItem cardImage="/images/proyectos_en_curso/proyecto1.png" />
+                <ProyectoItem cardImage="/images/proyectos_en_curso/proyecto2.png" />
+                <ProyectoItem cardImage="/images/proyectos_en_curso/proyecto3.png" />
+
             </div>
-
         </main>
 
     );

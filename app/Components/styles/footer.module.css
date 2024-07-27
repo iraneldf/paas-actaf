@@ -9,6 +9,7 @@
     min-width: 140px;
     max-width: 152px;
 }
+
 .rectangleParent {
     width: 653px;
     display: flex;
@@ -18,6 +19,7 @@
     gap: 15px;
     max-width: 100%;
 }
+
 .ellipseIcon,
 .frameChild1 {
     height: 62px;
@@ -27,6 +29,7 @@
     object-fit: cover;
     min-height: 62px;
 }
+
 .ellipseParent,
 .foother,
 .footherInner {
@@ -34,15 +37,18 @@
     align-items: flex-start;
     justify-content: flex-start;
 }
+
 .ellipseParent {
     flex-direction: row;
     gap: 24px;
 }
+
 .foother,
 .footherInner {
     flex-direction: column;
     padding: 17px 0 0;
 }
+
 .foother {
     width: 100%;
     background-color: #fff;
@@ -54,14 +60,20 @@
     line-height: normal;
     letter-spacing: normal;
     gap: 20px;
+   
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1400px) {
     .foother {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 450px) {
-    .rectangleParent {
+
+@media screen and (max-width: 1070px) {
+
+.rectangleParent {
         flex-wrap: wrap;
     }
+
+   
 }

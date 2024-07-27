@@ -10,7 +10,6 @@
     color: inherit;
 }
 
-/* ... resto de los estilos ... */
 .projectCardWrapper {
     padding: 20px 40px 0 60px;
     box-sizing: border-box;
@@ -60,6 +59,7 @@
 .detailRow {
     display: flex;
     align-items: flex-start;
+    
 }
 
 .detailLabel {
@@ -95,6 +95,8 @@
 @media screen and (max-width: 768px) {
     .projectCard {
         flex-direction: column;
+        
+        
     }
 
     .cardImageIcon {
@@ -103,6 +105,7 @@
 
     .detailRow {
         flex-direction: column;
+        width: 60vw;
     }
 
     .detailLabel {
@@ -114,5 +117,9 @@
     .detailLabel,
     .detailContent {
         font-size: 14px;
+        
     }
 }
+
+
+

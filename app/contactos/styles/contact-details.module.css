@@ -1,50 +1,3 @@
-.contactDetailsChild {
-    width: 298px;
-    height: 300px;
-    position: relative;
-    background-color: #fff;
-    display: none;
-}
-.frameChild {
-    height: 113px;
-    flex: 1;
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-    z-index: 2;
-}
-.contactDetailsInner {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 53px 0 51px;
-}
-.div,
-.nmeroDeTelfono {
-    align-self: stretch;
-    position: relative;
-    z-index: 2;
-}
-.nmeroDeTelfono {
-    text-transform: uppercase;
-}
-.div {
-    font-size: 20px;
-}
-.contactDetails,
-.nmeroDeTelfonoParent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.nmeroDeTelfonoParent {
-    align-self: stretch;
-    gap: 2px;
-}
 .contactDetails {
     width: 298px;
     height: 298px;
@@ -58,11 +11,63 @@
     color: #000;
     font-family: Armata;
 }
+
+.imagenContenedor {
+    align-self: stretch;
+    display: flex;
+    padding: 0 53px 0 51px;
+}
+
+.imagen {
+    height: 113px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 2;
+}
+
+
+.numero,
+.tipo {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+}
+
+.tipo {
+    text-transform: uppercase;
+}
+
+.div {
+    font-size: 20px;
+}
+
+.contactDetails,
+.infoContender {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.infoContender {
+    align-self: stretch;
+    gap: 2px;
+}
+
 @media screen and (max-width: 450px) {
-    .nmeroDeTelfono {
-        font-size: 19px;
+   
+    .imagen {
+        object-fit: contain;
     }
-    .div {
-        font-size: 16px;
+
+    .tipo {
+        font-size: 80%
+    }
+
+    .numero {
+        font-size: 80%;
     }
 }

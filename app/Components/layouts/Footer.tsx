@@ -13,7 +13,9 @@ const Footer: NextPage<FootherType> = ({className = ""}) => {
             <div className={styles.rectangleParent}>
                 <div className={styles.frameChild}/>
                 <div className={styles.frameItem}/>
-                <div className={styles.frameInner}/>
+                <div className={styles.frameInner} />
+                <div className={styles.frameInner} />
+                <div className={styles.frameInner} />
                 <div className={styles.rectangleDiv}/>
             </div>
             <div className={styles.footherInner}>

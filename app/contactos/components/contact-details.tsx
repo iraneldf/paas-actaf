@@ -4,34 +4,36 @@ import Image from "next/image";
 
 export type ContactDetailsType = {
     className?: string;
-    rectangle23?: string;
-    nmeroDeTelfono?: string;
-    prop?: string;
+    figura?: string;
+    tipo?: string;
+    numero?: string;
 };
 
 const ContactDetails: NextPage<ContactDetailsType> = ({
-                                                          className = "",
-                                                          rectangle23,
-                                                          nmeroDeTelfono,
-                                                          prop,
-                                                      }) => {
+    className = "",
+    figura,
+    tipo,
+    numero,
+}) => {
     return (
         <div className={[styles.contactDetails, className].join(" ")}>
-            <div className={styles.contactDetailsChild} />
-            <div className={styles.contactDetailsInner}>
+
+            <div className={styles.imagenContenedor}>
                 <Image
                     width={100}
                     height={100}
-                    className={styles.frameChild}
+                    className={styles.imagen}
                     loading="lazy"
                     alt=""
-                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}${rectangle23}`}
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}${figura}`}
                 />
             </div>
-            <div className={styles.nmeroDeTelfonoParent}>
-                <div className={styles.nmeroDeTelfono}>{nmeroDeTelfono}</div>
-                <div className={styles.div}>{prop}</div>
+
+            <div className={styles.infoContender}>
+                <div className={styles.tipo}>{tipo}</div>
+                <div className={styles.numero}>{numero}</div>
             </div>
+
         </div>
     );
 };
