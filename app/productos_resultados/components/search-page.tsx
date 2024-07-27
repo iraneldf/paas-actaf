@@ -1,10 +1,13 @@
 import type { NextPage } from "next";
 import styles from "../styles/search-page.module.css";
+import Image from "next/image";
 
 const SearchPage: NextPage = () => {
     return (
         <div className={styles.searchPage}>
-            <img
+            <Image
+                width={100}
+                height={100}
                 className={styles.searchPageChild}
                 alt=""
                 src="/rectangle-31@2x.png"
@@ -13,7 +16,9 @@ const SearchPage: NextPage = () => {
                 <div className={styles.rectangleParent}>
                     <div className={styles.frameChild} />
                     <div className={styles.contactInfo}>
-                        <img
+                        <Image
+                            width={100}
+                            height={100}
                             className={styles.contactImageIcon}
                             loading="lazy"
                             alt=""
@@ -41,13 +46,17 @@ const SearchPage: NextPage = () => {
                     </div>
                     <div className={styles.imageGridWrapper}>
                         <div className={styles.imageGrid}>
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.gridImageLeft}
                                 loading="lazy"
                                 alt=""
                                 src="/rectangle-33@2x.png"
                             />
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.gridImageRight}
                                 loading="lazy"
                                 alt=""
@@ -61,7 +70,9 @@ const SearchPage: NextPage = () => {
                         <div className={styles.frameItem} />
                         <div className={styles.specialistNamesParent}>
                             <div className={styles.specialistNames}>
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.specialistImagesIcon}
                                     loading="lazy"
                                     alt=""
@@ -87,13 +98,17 @@ const SearchPage: NextPage = () => {
                         </div>
                         <div className={styles.imagesRowWrapper}>
                             <div className={styles.imagesRow}>
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.leftImageIcon}
                                     loading="lazy"
                                     alt=""
                                     src="/rectangle-36@2x.png"
                                 />
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.rightImageIcon}
                                     loading="lazy"
                                     alt=""
@@ -108,7 +123,9 @@ const SearchPage: NextPage = () => {
                         <div className={styles.frameInner} />
                         <div className={styles.frameGroup}>
                             <div className={styles.ellipseWrapper}>
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.ellipseIcon}
                                     loading="lazy"
                                     alt=""
@@ -135,13 +152,17 @@ const SearchPage: NextPage = () => {
                         </div>
                         <div className={styles.frameDiv}>
                             <div className={styles.rectangleParent1}>
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.rectangleIcon}
                                     loading="lazy"
                                     alt=""
                                     src="/rectangle-39@2x.png"
                                 />
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.frameChild1}
                                     loading="lazy"
                                     alt=""
@@ -155,7 +176,9 @@ const SearchPage: NextPage = () => {
                     <div className={styles.rectangleDiv} />
                     <div className={styles.frameParent1}>
                         <div className={styles.ellipseContainer}>
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.frameChild2}
                                 loading="lazy"
                                 alt=""
@@ -180,13 +203,17 @@ const SearchPage: NextPage = () => {
                     </div>
                     <div className={styles.frameWrapper1}>
                         <div className={styles.leftSummaryImageParent}>
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.leftSummaryImage}
                                 loading="lazy"
                                 alt=""
                                 src="/rectangle-42@2x.png"
                             />
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.rightSummaryImage}
                                 loading="lazy"
                                 alt=""
@@ -201,7 +228,9 @@ const SearchPage: NextPage = () => {
                     <div className={styles.secondProfileDetails}>
                         <div className={styles.secondProfileDetailsChild} />
                         <div className={styles.secondContactInfo}>
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.secondContactImages}
                                 loading="lazy"
                                 alt=""
@@ -225,13 +254,17 @@ const SearchPage: NextPage = () => {
                         </div>
                         <div className={styles.secondImageRowWrapper}>
                             <div className={styles.secondImageRow}>
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.secondLeftImage}
                                     loading="lazy"
                                     alt=""
                                     src="/rectangle-45@2x.png"
                                 />
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.secondRightImage}
                                     loading="lazy"
                                     alt=""
@@ -244,7 +277,9 @@ const SearchPage: NextPage = () => {
                         <div className={styles.thirdProfileContainer}>
                             <div className={styles.thirdProfileContainerChild} />
                             <div className={styles.thirdProfileImage}>
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.thirdProfileImageChild}
                                     loading="lazy"
                                     alt=""
@@ -273,13 +308,17 @@ const SearchPage: NextPage = () => {
                             </div>
                             <div className={styles.thirdProfileImages}>
                                 <div className={styles.thirdProfileImagePairParent}>
-                                    <img
+                                    <Image
+                                        width={100}
+                                        height={100}
                                         className={styles.thirdProfileImagePair}
                                         loading="lazy"
                                         alt=""
                                         src="/rectangle-48@2x.png"
                                     />
-                                    <img
+                                    <Image
+                                        width={100}
+                                        height={100}
                                         className={styles.thirdProfileImagePair1}
                                         loading="lazy"
                                         alt=""
@@ -292,7 +331,9 @@ const SearchPage: NextPage = () => {
                     <div className={styles.secondProfileDetails1}>
                         <div className={styles.secondProfileDetailsItem} />
                         <div className={styles.secondProfileDetailsInner}>
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.frameChild3}
                                 loading="lazy"
                                 alt=""
@@ -320,13 +361,17 @@ const SearchPage: NextPage = () => {
                         </div>
                         <div className={styles.secondProfileDetailsInner1}>
                             <div className={styles.rectangleParent3}>
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.frameChild4}
                                     loading="lazy"
                                     alt=""
                                     src="/rectangle-51@2x.png"
                                 />
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     className={styles.frameChild5}
                                     loading="lazy"
                                     alt=""

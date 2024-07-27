@@ -1,11 +1,16 @@
 import type { NextPage } from "next";
 import styles from "./styles/index.module.css";
+import Image from "next/image";
 
 const ProductosResultados: NextPage = () => {
+
+    const texto = "Área de incidencia: 3 UBPC (&ldquo;13 de marzo&rdquo;, &ldquo;Juan Oramas&rdquo; y &ldquo;26 de julio&rdquo;) y una UEB (&ldquo;Victoria de Girón&rdquo;), además del PDL &ldquo;Vista Hermosa&rdquo;, y entidades locales de servicios técnicos. Municipio Guanabacoa. La Habana.";
     return (
         <div className={styles.design}>
             <header className={styles.imageContainerWrapper}>
-                <img
+                <Image
+                    width={100}
+                    height={100}
                     className={styles.imageContainerIcon}
                     loading="lazy"
                     alt=""
@@ -22,10 +27,7 @@ const ProductosResultados: NextPage = () => {
                         Financista; Agencia Italiana de Colaboración al Desarrollo (AICS)
                     </p>
                     <p className={styles.reaDeIncidencia}>
-                        Área de incidencia: 3 UBPC (“13 de marzo”, “Juan Oramas” y “26 de
-                        julio”) y una UEB (“Victoria de Girón”), además del PDL “Vista
-                        Hermosa", y entidades locales de servicios técnicos.   Municipio
-                        Guanabacoa. La Habana.
+                        {texto}
                     </p>
                     <p className={styles.objetivoGeneralContribuir}>
                         Objetivo General: Contribuir al desarrollo socioeconómico y al
@@ -55,12 +57,16 @@ const ProductosResultados: NextPage = () => {
             </section>
             <section className={styles.shapeContainer}>
                 <div className={styles.subShapeContainer}>
-                    <img
+                    <Image
+                        width={100}
+                        height={100}
                         className={styles.subShapeContainerChild}
                         alt=""
                         src="/rectangle-56@2x.png"
                     />
-                    <img
+                    <Image
+                        width={100}
+                        height={100}
                         className={styles.subShapeContainerItem}
                         loading="lazy"
                         alt=""
@@ -109,12 +115,16 @@ const ProductosResultados: NextPage = () => {
                 </div>
             </section>
             <div className={styles.footerShapes}>
-                <img
+                <Image
+                    width={100}
+                    height={100}
                     className={styles.footerShapesChild}
                     alt=""
                     src="/rectangle-59@2x.png"
                 />
-                <img
+                <Image
+                    width={100}
+                    height={100}
                     className={styles.footerShapesItem}
                     loading="lazy"
                     alt=""

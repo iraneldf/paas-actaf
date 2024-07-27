@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
 import styles from "./styles/index.module.css";
 import MiembroEquipo from "@/app/nuestro_equipo/components/miembro";
+import Image from "next/image";
 
 const Main: NextPage = () => {
     return (
         <div className={styles.main}>
-            <img className={styles.teamInfoIcon} alt="" src="/team-info@2x.png" />
+            <Image width={100} height={100} className={styles.teamInfoIcon} alt="" src="/team-info@2x.png" />
             <section className={styles.nuestroEquipo}>nuestro equipo</section>
             <section className={styles.loremIpsumDolorContainer}>
         <span className={styles.loremIpsumDolorContainer1}>

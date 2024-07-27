@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import styles from "../styles/miembro.module.css";
+import Image from "next/image";
 
 export type FrameComponentType = {
     className?: string;
@@ -9,20 +10,22 @@ export type FrameComponentType = {
 };
 
 const MiembroEquipo: NextPage<FrameComponentType> = ({
-                                                          className = "",
-                                                          davidImageContainer,
-                                                          rectangle33,
-                                                          rectangle34,
-                                                      }) => {
+    className = "",
+    davidImageContainer,
+    rectangle33,
+    rectangle34,
+}) => {
     return (
         <div className={[styles.rectangleParent, className].join(" ")}>
             <div className={styles.frameChild} />
             <div className={styles.davidInfoContainer}>
-                <img
+                <Image
+                    width={100}
+                    height={100}
                     className={styles.davidImageContainer}
                     loading="lazy"
                     alt=""
-                    src={davidImageContainer}
+                    src={davidImageContainer as string}
                 />
             </div>
             <div className={styles.davidGonzalez}>David Gonzalez</div>
@@ -38,17 +41,21 @@ const MiembroEquipo: NextPage<FrameComponentType> = ({
                     </div>
                     <div className={styles.frameWrapper}>
                         <div className={styles.rectangleGroup}>
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.frameItem}
                                 loading="lazy"
                                 alt=""
-                                src={rectangle33}
+                                src={rectangle33 as string}
                             />
-                            <img
+                            <Image
+                                width={100}
+                                height={100}
                                 className={styles.frameInner}
                                 loading="lazy"
                                 alt=""
-                                src={rectangle34}
+                                src={rectangle34 as string}
                             />
                         </div>
                     </div>
