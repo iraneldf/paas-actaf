@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import styles from "./search-page.module.css";
+import styles from "../styles/search-page.module.css";
 
 const SearchPage: NextPage = () => {
     return (
@@ -28,7 +28,7 @@ const SearchPage: NextPage = () => {
                             <p className={styles.doctorEnCiencias}>
                                 Doctor en Ciencias Agrarias
                             </p>
-                            <p className={styles.directorDelPrograma}>
+                            <p className={styles.directorDelPrograma}>``
                                 Director del Programa
                             </p>
                         </div>
