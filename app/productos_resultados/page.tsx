@@ -2,137 +2,122 @@ import type { NextPage } from "next";
 import styles from "./styles/index.module.css";
 import Image from "next/image";
 
-const ProductosResultados: NextPage = () => {
-
-    const texto = "Área de incidencia: 3 UBPC (&ldquo;13 de marzo&rdquo;, &ldquo;Juan Oramas&rdquo; y &ldquo;26 de julio&rdquo;) y una UEB (&ldquo;Victoria de Girón&rdquo;), además del PDL &ldquo;Vista Hermosa&rdquo;, y entidades locales de servicios técnicos. Municipio Guanabacoa. La Habana.";
+const ProductosYResultadosDelPro: NextPage = () => {
     return (
-        <div className={styles.design}>
-            <header className={styles.imageContainerWrapper}>
-                <Image
-                    width={100}
-                    height={100}
-                    className={styles.imageContainerIcon}
-                    loading="lazy"
-                    alt=""
-                    src="/rectangle-73@2x.png"
-                />
-            </header>
-            <section className={styles.fecha242026MontoFinanciamWrapper}>
-                <div className={styles.fecha242026MontoContainer}>
-                    <p className={styles.fecha242026}>Fecha: 24-2026</p>
-                    <p className={styles.montoFinanciamiento263480}>
-                        Monto financiamiento: 2,634.800,00 euros
-                    </p>
-                    <p className={styles.financistaAgenciaItaliana}>
-                        Financista; Agencia Italiana de Colaboración al Desarrollo (AICS)
-                    </p>
-                    <p className={styles.reaDeIncidencia}>
-                        {texto}
-                    </p>
-                    <p className={styles.objetivoGeneralContribuir}>
-                        Objetivo General: Contribuir al desarrollo socioeconómico y al
-                        abastecimiento alimentario municipal sostenible.
-                    </p>
-                    <p className={styles.objetivoEspecficoFortalece}>
-                        Objetivo Específico: Fortalecer la cadena de valor del sector lácteo
-                        en su contribución a la gestión diversificada del Sistema
-                        Alimentario Local del Municipio de Guanabacoa
-                    </p>
-                    <p className={styles.resultadosEsperadoa}>Resultados esperadoa:</p>
-                    <p className={styles.r1AumentadaLa}>
-                        R1: Aumentada la producción de leche bubalina de calidad, con
-                        enfoque agroecológico diversificado y aplicación de principios de
-                        economía circular
-                    </p>
-                    <p className={styles.r2MejoradasLas}>
-                        R2: Mejoradas las capacidades para la transformación y
-                        comercialización de lácteos a nivel local.
-                    </p>
-                    <p className={styles.r3MejoradasLas}>
-                        R3: Mejoradas las capacidades de gobernanza local de los sistemas
-                        agroalimentarios y promovida la educación alimentaria y nutricional
-                        en sectores vulnerables de la población.
-                    </p>
+
+
+        <main className={styles.main}>
+
+            <section className={styles.program}>
+
+                <div className={styles.results}>
+                    <h1 className={styles.titulo}>
+                        productos y resultados del Programa
+                    </h1>
                 </div>
-            </section>
-            <section className={styles.shapeContainer}>
-                <div className={styles.subShapeContainer}>
-                    <Image
-                        width={100}
-                        height={100}
-                        className={styles.subShapeContainerChild}
-                        alt=""
-                        src="/rectangle-56@2x.png"
-                    />
-                    <Image
-                        width={100}
-                        height={100}
-                        className={styles.subShapeContainerItem}
-                        loading="lazy"
-                        alt=""
-                        src="/polygon-5.svg"
-                    />
-                </div>
-            </section>
-            <section className={styles.newsContainerWrapper}>
-                <div className={styles.newsContainer}>
-                    <h1 className={styles.noticiasSobreLa}>NOTICIAS SOBRE LA MARCHA</h1>
-                    <div className={styles.newsDescriptionContainer}>
-                        <div className={styles.tallerDeInicioContainer}>
-                            <p className={styles.tallerDeInicio}>
-                                Taller de inicio del proyecto en el municipio Guanabacoa.
-                            </p>
-                            <p className={styles.blankLine}>&nbsp;</p>
-                            <p className={styles.elPasado21}>
-                                El pasado 21 de junio de 2024 se efectuó el Taller de Arrancada
-                                del proyecto, en el Centro de Capacitación “La Cascada”, de la
-                                Empresa Agropecuaria Bacuranao, Guanabacoa, con la asistencia de
-                                46 personas. Estaban presentes los beneficiarios directos del
-                                proyecto, autoridades de Gobierno municipal, actores directos e
-                                indirectos de las acciones previstas, el representantes de ACTAF
-                                nacional, provincial y municipal, el Equipo Gestor de PAAS, y
-                                una amplia representación de la oficina de AICS en Cuba,
-                                encabezada por su Director Antonio Festa.
-                            </p>
-                            <p className={styles.blankLine1}>&nbsp;</p>
-                            <p className={styles.enElTaller}>
-                                En el taller, el Director del Programa PAAS, Juan Perez Lamas,
-                                compartió el camino recorrido para llegar a este momento y el
-                                objetivo perseguido con el mismo. También se presentaron los
-                                integrantes del Equipo Externo y el Equipo local de ejecución. A
-                                continuación Roberto Caballero (Miembro del Equipo de Gestión)
-                                presentó los contenidos generales y la lógica prevista de
-                                iontervención. Se continuó con la explicación del procedimiento
-                                para las adquisiciones por William Graupera, la explicaciómn del
-                                Plan de Actividades y Sistema de Monitoreo, por parte de Elieser
-                                Perera, concluyendo con la socialización del proceso que se
-                                iniciaría de inmediato para el diagnóstico de la situación
-                                actual y proyecciones previstas para cada finca. Todo ello
-                                estuvo acompañado de una activa participación de los presentes.
-                            </p>
+
+                <div className={styles.productDescription}>
+
+                    <div className={styles.productHeader}>
+                        <div className={styles.productHeaderChild} />
+                        <Image
+                            width={100}
+                            height={100}
+                            className={styles.productImageIcon}
+                            loading="lazy"
+                            alt=""
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/productos y programas/programa 1.png`}
+                        />
+                        <div className={styles.productDetails}>
+                            <div className={styles.productInformation}>
+                                <div className={styles.productLabels}>
+                                    <div className={styles.nombre}>Nombre:</div>
+                                    <div className={styles.descripcion}>Descripción:</div>
+                                </div>
+                                <div className={styles.productContent}>
+                                    <div className={styles.productOne}>
+                                        <div className={styles.manualPrcticoPara}>
+                                            Manual práctico para productoras y productores
+                                            agrícolas: desarrollo de inversiones en fincas y
+                                            cooperativas agrícolas.
+                                        </div>
+                                        <div className={styles.estaTemticaEn}>
+                                            Esta temática en nuestro entorno nacional, también ha
+                                            estado marcada por criticas severas por el poco dominio
+                                            y comprension del proceso inversionista, su ejecucion no
+                                            eficiente y la baja calidad o inexistencia de estudios
+                                            de factibilidad que sustenten la viabilidad de las
+                                            mismas. De esta situacion no escapa ningun sector ni
+                                            rama de la economia nacional. Sin embargo, en el sector
+                                            agropecuario la situacion puede ser un poco mas
+                                            complicada y acumular mayores retrasos, a pesar de
+                                            esfuerzos por direccionar acciones de capacitacion en
+                                            este sentido. La fortaleza de poder contar con un sector
+                                            cooperativo - campesino instruido y culto, asegura que
+                                            en un breve plazo ira tomando para si estas tecnicas y
+                                            cambiara radicalmente su mentalidad, para bien propio y
+                                            de la sociedad en su conjunto. La coyuntura y escenario
+                                            actual de la economia cubana en su proceso de
+                                            restructuracion exige a todos los actores economicos –
+                                            sea cual fuere la forma de propiedad en que estan
+                                            organizados - operar de manera eficiente, en primer
+                                            lugar, y competitiva, en ultima instancia, si queremos
+                                            tener una economia y sociedad sostenible.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+
+                    <div className={styles.productHeader}>
+                        <div className={styles.productHeaderChild} />
+                        <Image
+                            width={100}
+                            height={100}
+                            className={styles.productImageIcon}
+                            loading="lazy"
+                            alt=""
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/productos y programas/programa 2.png`}
+                        />
+                        <div className={styles.productDetails}>
+                            <div className={styles.productInformation}>
+                                <div className={styles.productLabels}>
+                                    <div className={styles.nombre}>Nombre:</div>
+                                    <div className={styles.descripcin}>Descripción:</div>
+                                </div>
+                                <div className={styles.productContent}>
+                                    <div className={styles.productOne}>
+                                        <div className={styles.manualPrcticoPara}>
+                                            Sistema Participativo de Garantía para la Certificación
+                                            Agroecológica.
+                                        </div>
+                                        <div className={styles.estaTemticaEn}>
+                                            Los Sistemas Participativos de Garantía (SPG) son
+                                            herramientas especialmente adaptadas a la Soberanía
+                                            Alimentaria, ya que permiten visibilizar la realidad
+                                            productiva de la actividad agraria, y generar compromisos
+                                            para compartir los riesgos de la producción y el consumo.
+                                            El Manual del Sistema Participativo de Garantía (SPG) para
+                                            la certificación agroecológica en la Agricultura Urbana,
+                                            Suburbana y Familiar en Cuba, ha sido elaborado en el
+                                            marco del proyecto PAAS-2, y permite a agricultores,
+                                            técnicos y decisores locales certificar sus producciones,
+                                            logrando un justo reconocimiento a quienes producen de
+                                            manera sostenible sobre bases agroecológicas.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
-            <div className={styles.footerShapes}>
-                <Image
-                    width={100}
-                    height={100}
-                    className={styles.footerShapesChild}
-                    alt=""
-                    src="/rectangle-59@2x.png"
-                />
-                <Image
-                    width={100}
-                    height={100}
-                    className={styles.footerShapesItem}
-                    loading="lazy"
-                    alt=""
-                    src="/polygon-3.svg"
-                />
-            </div>
-        </div>
+            
+        </main>
     );
 };
 
-export default ProductosResultados;
+export default ProductosYResultadosDelPro;

@@ -1,19 +1,21 @@
-.frameChild {
-    align-self: stretch;
-    height: 372px;
-    position: relative;
+.tarjeta {
+    width: 297px;
     background-color: #e6e3e3;
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    gap: 13.7px;
+    z-index: 1;
+    font-size: 14px;
+    color: #000;
+    font-family: Armata;
 }
-.davidImageContainer {
-    height: 122px;
-    width: 133px;
-    position: relative;
-    border-radius: 50%;
-    object-fit: cover;
-    z-index: 2;
-}
-.davidInfoContainer {
+
+.logoContenedor {
     align-self: stretch;
     display: flex;
     flex-direction: row;
@@ -21,90 +23,58 @@
     justify-content: center;
     padding: 0 20px;
 }
-.consultor,
-.davidGonzalez {
+
+.logoImagen {
+    height: 122px;
+    width: 133px;
     position: relative;
+    border-radius: 50%;
+    object-fit: cover;
     z-index: 2;
 }
-.davidGonzalez {
+
+.textoNombre {
     align-self: stretch;
+    text-wrap: balance;
     font-size: 16px;
     color: #248628;
 }
-.consultor {
-    flex: 1;
-}
-.consultorContainerDuplicate {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
+
+.cargoContenedor {
+    text-wrap: pretty;
     padding: 0 1px 0 0;
 }
-.loremIpsumDolor {
-    align-self: stretch;
+
+.textoCargo {
+    display: block;
+    flex-wrap: wrap;
+}
+
+.textoCargo,
+.textoNombre {
     position: relative;
-    white-space: pre-wrap;
     z-index: 2;
 }
+
+
 .frameInner,
 .frameItem {
     height: 33px;
     width: 36px;
-    position: relative;
     object-fit: cover;
     min-height: 33px;
-    z-index: 2;
 }
-.rectangleGroup {
-    flex: 1;
+
+.infoContenedor {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
-}
-.frameWrapper,
-.loremIpsumDolorSitAmetEuParent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.frameWrapper {
     align-self: stretch;
-    flex-direction: row;
-    padding: 0 86px 0 78px;
-}
-.loremIpsumDolorSitAmetEuParent {
-    flex: 1;
-    flex-direction: column;
-    gap: 10px;
-}
-.loremContainerDuplicate {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
     padding: 0 10px 0 14px;
 }
-.rectangleParent {
-    width: 297px;
-    background-color: #e6e3e3;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 10px 0;
-    box-sizing: border-box;
-    gap: 13.7px;
-    z-index: 1;
-    text-align: center;
-    font-size: 14px;
-    color: #000;
-    font-family: Armata;
-}
+
+
+
 @media screen and (max-width: 450px) {
     .frameWrapper {
         padding-left: 20px;

@@ -9,8 +9,14 @@ const Root: NextPage = () => {
     return (
         <div className={styles.root}>
             <FrameComponent2 />
-            <FrameComponent3 />
-            <FrameComponent4 />
+
+            <FrameComponent3 rutaImagen="/images/esquema.png"/>  
+            <FrameComponent4 rutaImagen="/images/vaca.png" />   
+            <FrameComponent3 rutaImagen="/images/esquema2.png" />  
+            <FrameComponent4 rutaImagen="/images/frutas.png" />
+
+
+{/* 
             <FrameComponent5 />
             <section className={styles.loremIpsumParent}>
                 <h1 className={styles.loremIpsum}>Lorem ipsum</h1>
@@ -43,7 +49,7 @@ const Root: NextPage = () => {
                         </p>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 };

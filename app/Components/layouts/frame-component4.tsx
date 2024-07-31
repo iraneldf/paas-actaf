@@ -5,10 +5,13 @@ import Image from "next/image";
 
 export type FrameComponent4Type = {
     className?: string;
+    rutaImagen?: string;
 };
 
-const FrameComponent4: NextPage<FrameComponent4Type> = ({className = ""}) => {
+const FrameComponent4: NextPage<FrameComponent4Type> = ({ className = "", rutaImagen }) => {
     return (
+
+        
         <section className={[styles.rectangleParent, className].join(" ")}>
             <div className={styles.textContainer}>
                 <FrameComponent/>
@@ -20,7 +23,7 @@ const FrameComponent4: NextPage<FrameComponent4Type> = ({className = ""}) => {
                     className={styles.frameChild} 
                     loading="lazy"
                     alt="frutas.png"
-                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/vaca.png`}/>
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}${rutaImagen}`}/>
             </div>
         </section>
     );

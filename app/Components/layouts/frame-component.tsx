@@ -1,5 +1,5 @@
-import type {NextPage} from "next";
-import {useMemo, type CSSProperties} from "react";
+import type { NextPage } from "next";
+import { useMemo, type CSSProperties } from "react";
 import styles from "../styles/frame-component.module.css";
 
 export type FrameComponentType = {
@@ -9,9 +9,9 @@ export type FrameComponentType = {
 };
 
 const FrameComponent: NextPage<FrameComponentType> = ({
-                                                          className = "",
-                                                          propPadding,
-                                                      }) => {
+    className = "",
+    propPadding,
+}) => {
     const frameDivStyle: CSSProperties = useMemo(() => {
         return {
             padding: propPadding,
@@ -26,21 +26,19 @@ const FrameComponent: NextPage<FrameComponentType> = ({
             <div className={styles.loremIpsumDolorSitAmetNaParent}>
                 <div className={styles.loremIpsumDolorContainer}>
                     <p className={styles.loremIpsumDolor}>
-                        Lorem ipsum dolor sit amet. Nam natus praesentium qui Quis voluptas
-                        ut eligendi repellendus in fugit similique. Et alias similique a
-                        placeat excepturi At ullam commodi sit corrupti esse sed aliquam
-                        obcaecati 33 beatae incidunt.
+                        Enfoque de Cadenas de Valor Locales Sostenibles
                     </p>
                     <p className={styles.etRerumAtque}>
-                        Et rerum atque rem cupiditate rerum vel dolor nulla et porro
-                        reprehenderit sed harum velit et cupiditate sint. Aut earum Quis et
-                        minima debitis sit accusamus sint qui culpa consequuntur et
-                        praesentium voluptatem et sint velit sed enim quia.
+                        Con la participación de la totalidad de los actores
+                        de las diferentes cadenas, desde la finca hasta el municipio
+                        Alcanzar la mayor soberanía alimentaria local posible desde un involucramiento consciente de todos,
+                        que optimice el empleo eficiente de las potencialidades locales, y acerque cada día más la oferta de
+                        alimentos a la demanda local en cantidad, diversidad, estabilidad, formatos y transformaciones.
                     </p>
                 </div>
                 <div className={styles.frameContainer}>
                     <button className={styles.rectangleParent}>
-                        <div className={styles.frameChild}/>
+                        <div className={styles.frameChild} />
                         <div className={styles.leerMs}>Leer más</div>
                     </button>
                 </div>

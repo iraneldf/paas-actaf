@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import ContactHeader from "./components/header";
 import styles from "./styles/index.module.css";
 import Image from "next/image";
+import MapComponent from "./components/MapComponent";
 
 const Root: NextPage = () => {
     return (
@@ -39,6 +40,7 @@ const Root: NextPage = () => {
                             alt=""
                             src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/contactos/mapa.png`}
                         />
+                      {/*   <MapComponent /> */}
                     </div>
                 </div>
             </div>

@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77891d5-a089-4345-9316-e63fa1aa4a61" name="Changes" comment="" />
+    <list default="true" id="b77891d5-a089-4345-9316-e63fa1aa4a61" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/Root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/layouts/frame-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/layouts/frame-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/layouts/frame-component3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/layouts/frame-component3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/layouts/frame-component4.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/layouts/frame-component4.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contactos/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contactos/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nuestro_equipo/components/miembro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/nuestro_equipo/components/miembro.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nuestro_equipo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/nuestro_equipo/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nuestro_equipo/styles/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/nuestro_equipo/styles/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nuestro_equipo/styles/miembro.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/nuestro_equipo/styles/miembro.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/productos_resultados/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/productos_resultados/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/productos_resultados/styles/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/productos_resultados/styles/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/productos_resultados/styles/productos-y-resultados-del-pro.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/productos_resultados/styles/search-page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proyectos_en_curso/components/proyectoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/proyectos_en_curso/components/proyectoItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proyectos_terminados/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/proyectos_terminados/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,27 +35,61 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2iMVRu8hhNLSIBKevW2lzIs2kS9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "AtomSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/paas-actaf&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.run.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\paas-actaf\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" singleton="false" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,10 +99,26 @@
       <option name="presentableId" value="Default" />
       <updated>1719300430756</updated>
       <workItem from="1719300432681" duration="314000" />
+      <workItem from="1722321935493" duration="697000" />
+      <workItem from="1722389921821" duration="1119000" />
+      <workItem from="1722393479370" duration="4508000" />
+      <workItem from="1722400673834" duration="845000" />
+      <workItem from="1722401972454" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

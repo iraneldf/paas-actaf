@@ -36,6 +36,11 @@ const ProyectoItem: NextPage<FrameComponentType> = ({
                                     <span className={styles.detailLabel}>Nombre:</span>
                                     <span className={styles.detailContent}>Agricultura sostenible para los pueblos de América</span>
                                 </div>
+
+                                <div className={styles.detailRow}>
+                                    <span className={styles.detailLabel}>Año:</span>
+                                    <span className={styles.detailContent}>2023 - 2024</span>
+                                </div>
                                 
                                 <div className={styles.detailRow}>
                                     <span className={styles.detailLabel}>Descripción:</span>
@@ -47,6 +52,7 @@ const ProyectoItem: NextPage<FrameComponentType> = ({
                                         corrupti est expedita aspernatur?
                                     </span>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>

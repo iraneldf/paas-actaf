@@ -1,246 +1,326 @@
-.imageContainerIcon {
-    height: 110px;
-    flex: 1;
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    object-fit: cover;
+.main {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 47px 0 42px;
+  max-width: 100%;
 }
 
-.imageContainerWrapper {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 0 0 1px;
+.titulo {
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+.productDescription,
+.program {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.productDescription {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 54px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.productHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 26px 0 31px;
+  box-sizing: border-box;
+  gap: 19px;
+}
+
+.productHeader,
+.productHeaderItem {
+  align-self: stretch;
+  background-color: rgba(36, 134, 40, 0.6);
+  max-width: 100%;
+}
+
+.productHeaderChild {
+  width: 1351px;
+  position: relative;
+  background-color: rgba(36, 134, 40, 0.6);
+  display: none;
+}
+.productHeaderItem {
+  width: 1351px;
+  position: relative;
+  display: none;
+}
+
+.productHeaderInner {
+  height: 350px;
+  width: 241px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+
+
+.productImageIcon {
+  height: 350px;
+  width: 241px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+
+
+.productContent,
+.productDetails,
+.productInformation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.productInformation {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+}
+
+.productDetails {
+  flex: 1;
+  flex-direction: column;
+  padding: 9px 0 0;
+  box-sizing: border-box;
+  min-width: 672px;
+}
+
+
+.productLabels {
+  width: 153px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+}
+
+.descripcion,
+.nombre {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.nombre {
+  width: 111px;
+}
+
+.descripcion {
+  align-self: stretch;
+  height: 52px;
+  flex-shrink: 0;
+}
+
+.descripcion,
+.descripcin1,
+.manualPrcticoPara,
+.nombre,
+.nombre1,
+.sistemaParticipativoDe {
+  font-size: 16px;
+}
+
+.estaTemticaEn,
+.manualPrcticoPara {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+
+.estaTemticaEn {
+  font-size: 16px;
+}
+
+.program {
+  flex: 1;
+  align-items: flex-end;
+  gap: 70px;
+  text-align: center;
+  font-size: 64px;
+  color: #000;
+  font-family: Armata;
+}
+
+/* .results {
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 58px 0 65px;
+  box-sizing: border-box;
+} */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+.productOne {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px;
+}
+
+.productContent {
+  flex: 1;
+  flex-direction: column;
+  padding: 7px 0 0;
+  box-sizing: border-box;
+  min-width: 576px;
+  margin-left: -5px;
+}
+
+
+
+
+
+.descripcin1,
+.nombre1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nombre1 {
+  width: 111px;
+  z-index: 1;
+}
+
+.descripcin1 {
+  align-self: stretch;
+  height: 52px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.nombreParent {
+  width: 153px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px;
+}
+
+.losSistemasParticipativos,
+.sistemaParticipativoDe {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+
+.losSistemasParticipativos {
+  font-size: 16px;
+}
+
+.sistemaParticipativoDeGaranParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 32px;
+  min-width: 576px;
+  max-width: 100%;
+  margin-left: -5px;
+}
+
+@media screen and (max-width: 1275px) {
+  .results {
+    padding-left: 32px;
+    padding-right: 29px;
     box-sizing: border-box;
-    max-width: 100%;
+  }
 }
 
-.fecha242026,
-.financistaAgenciaItaliana,
-.montoFinanciamiento263480,
-.objetivoEspecficoFortalece,
-.objetivoGeneralContribuir,
-.r1AumentadaLa,
-.r2MejoradasLas,
-.r3MejoradasLas,
-.reaDeIncidencia,
-.resultadosEsperadoa {
-    margin: 0;
-}
+@media screen and (max-width: 1100px) {
+  .productInformation {
+    flex-wrap: wrap;
+  }
 
-.fecha242026MontoContainer {
-    flex: 1;
-    position: relative;
-    display: inline-block;
-    max-width: 100%;
-}
+  .productDetails {
+    min-width: 100%;
+  }
 
-.fecha242026MontoFinanciamWrapper {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 55px 168px;
-    box-sizing: border-box;
-    max-width: 100%;
-    text-align: left;
-    font-size: 24px;
-    color: #000;
-    font-family: Armata;
-}
+  .frameParent {
+    flex-wrap: wrap;
+  }
 
-.subShapeContainerChild {
-    height: 726px;
-    flex: 1;
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.subShapeContainerItem {
-    height: 93px;
-    width: 79px;
-    position: absolute;
-    margin: 0 !important;
-    top: 316px;
-    left: 14px;
-    object-fit: contain;
-    z-index: 1;
-}
-
-.shapeContainer,
-.subShapeContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    max-width: 100%;
-}
-
-.subShapeContainer {
-    flex: 1;
-    position: relative;
-}
-
-.shapeContainer {
-    align-self: stretch;
-    padding: 0 0 5px;
-    box-sizing: border-box;
-}
-
-.noticiasSobreLa {
-    margin: 0;
-    align-self: stretch;
-    position: relative;
-    font-size: inherit;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: inherit;
-}
-
-.blankLine,
-.blankLine1,
-.elPasado21,
-.enElTaller,
-.tallerDeInicio {
-    margin: 0;
-}
-
-.tallerDeInicioContainer {
-    flex: 1;
-    position: relative;
-    display: inline-block;
-    max-width: 100%;
-}
-
-.newsDescriptionContainer {
-    align-self: stretch;
-    flex-direction: row;
-    padding: 0 58px;
-    box-sizing: border-box;
-    text-align: justify;
-    font-size: 24px;
-}
-
-.newsContainer,
-.newsContainerWrapper,
-.newsDescriptionContainer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    max-width: 100%;
-}
-
-.newsContainer {
-    flex: 1;
-    flex-direction: column;
-    gap: 65px;
-}
-
-.newsContainerWrapper {
-    align-self: stretch;
-    flex-direction: row;
-    padding: 0 30px 60px 29px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 64px;
-    color: #000;
-    font-family: Armata;
-}
-
-.footerShapesChild {
-    height: 695px;
-    flex: 1;
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.footerShapesItem {
-    height: 93px;
-    width: 79px;
-    position: absolute;
-    margin: 0 !important;
-    top: calc(50% - 46.5px);
-    left: 14px;
-    object-fit: contain;
-    z-index: 1;
-}
-
-.design,
-.footerShapes {
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.footerShapes {
-    align-self: stretch;
-    flex-direction: row;
-    max-width: 100%;
-}
-
-.design {
-    width: 100%;
-    flex-direction: column;
-    gap: 17px;
-    line-height: normal;
-    letter-spacing: normal;
-}
-
-@media screen and (max-width: 1200px) {
-    .newsDescriptionContainer {
-        padding-left: 29px;
-        padding-right: 29px;
-        box-sizing: border-box;
-    }
-}
-
-@media screen and (max-width: 1050px) {
-    .noticiasSobreLa {
-        font-size: 51px;
-    }
+  .frameDiv {
+    min-width: 100%;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .fecha242026MontoFinanciamWrapper {
-        padding-left: 27px;
-        padding-right: 27px;
-        padding-bottom: 109px;
-        box-sizing: border-box;
-    }
+  .productosYResultados {
+    font-size: 51px;
+  }
 
-    .newsContainer {
-        gap: 32px;
-    }
+  .productContent,
+  .sistemaParticipativoDeGaranParent {
+    min-width: 100%;
+    margin-left: 0;
+  }
 
-    .newsContainerWrapper {
-        padding-bottom: 39px;
-        box-sizing: border-box;
-    }
+  .productDescription {
+    gap: 27px;
+  }
+
+  .program {
+    gap: 35px;
+  }
+
+  .main {
+    padding-left: 21px;
+    padding-right: 23px;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .fecha242026MontoContainer {
-        font-size: 19px;
-    }
+  .productosYResultados {
+    font-size: 38px;
+  }
 
-    .noticiasSobreLa {
-        font-size: 38px;
-    }
+  
 
-    .tallerDeInicioContainer {
-        font-size: 19px;
-    }
+  .sistemaParticipativoDeGaranParent {
+    gap: 16px;
+  }
 
-    .newsContainer {
-        gap: 16px;
-    }
+  .program {
+    gap: 17px;
+  }
 }

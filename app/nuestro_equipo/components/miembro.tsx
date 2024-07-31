@@ -4,62 +4,57 @@ import Image from "next/image";
 
 export type FrameComponentType = {
     className?: string;
-    davidImageContainer?: string;
-    rectangle33?: string;
-    rectangle34?: string;
+    fotoperfil?: string;
+    logowhatsap?: string;
+    logofacebook?: string;
 };
 
 const MiembroEquipo: NextPage<FrameComponentType> = ({
     className = "",
-    davidImageContainer,
-    rectangle33,
-    rectangle34,
+    fotoperfil,
+    logowhatsap,
+    logofacebook,
 }) => {
     return (
-        <div className={[styles.rectangleParent, className].join(" ")}>
-            <div className={styles.frameChild} />
-            <div className={styles.davidInfoContainer}>
+
+        <div className={[styles.tarjeta, className].join(" ")}>
+
+            <div className={styles.logoContenedor}>
+
                 <Image
                     width={100}
                     height={100}
-                    className={styles.davidImageContainer}
+                    className={styles.logoImagen}
                     loading="lazy"
                     alt=""
-                    src={davidImageContainer as string}
+                    src={fotoperfil as string}
                 />
+
             </div>
-            <div className={styles.davidGonzalez}>David Gonzalez</div>
-            <div className={styles.consultorContainerDuplicate}>
-                <div className={styles.consultor}>Consultor</div>
+
+            <div className={styles.textoNombre}>David Gonzalez</div>
+
+            <div className={styles.cargoContenedor}>
+                <div className={styles.textoCargo}>Consultor</div>
             </div>
-            <div className={styles.loremContainerDuplicate}>
-                <div className={styles.loremIpsumDolorSitAmetEuParent}>
-                    <div className={styles.loremIpsumDolor}>
-                        Lorem ipsum dolor sit amet. Eum voluptatem illo aut illum alias sit
-                        doloremque omnis. Ut cupiditate error qui doloribus magni et
-                        corrupti reiciendis vel magnam Quis qui soluta.
-                    </div>
-                    <div className={styles.frameWrapper}>
-                        <div className={styles.rectangleGroup}>
-                            <Image
-                                width={100}
-                                height={100}
-                                className={styles.frameItem}
-                                loading="lazy"
-                                alt=""
-                                src={rectangle33 as string}
-                            />
-                            <Image
-                                width={100}
-                                height={100}
-                                className={styles.frameInner}
-                                loading="lazy"
-                                alt=""
-                                src={rectangle34 as string}
-                            />
-                        </div>
-                    </div>
-                </div>
+
+            <div className={styles.infoContenedor}>
+                <Image
+                    width={100}
+                    height={100}
+                    className={styles.frameItem}
+                    loading="lazy"
+                    alt=""
+                    src={logowhatsap as string}
+                />
+                <Image
+                    width={100}
+                    height={100}
+                    className={styles.frameInner}
+                    loading="lazy"
+                    alt=""
+                    src={logofacebook as string}
+                />
             </div>
         </div>
     );
