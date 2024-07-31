@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b77891d5-a089-4345-9316-e63fa1aa4a61" name="Changes" comment="Nuevos cambios en diseño pantallas añadidas">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contactos/components/MapComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_en_curso/proyecto/components/producto-y-resultado.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_en_curso/proyecto/components/search-page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_en_curso/proyecto/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_en_curso/proyecto/styles/index.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_en_curso/proyecto/styles/productos-y-resultados-del-pro.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_en_curso/proyecto/styles/search-page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_terminados/components/proyectoItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_terminados/proyecto/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_terminados/proyecto/styles/index.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_terminados/styles/index.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proyectos_terminados/styles/proyecto.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Esquema.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Esquema2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nuestro equipo/Fondo Nuestro equipo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nuestro equipo/perfil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productos y programas/programa 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productos y programas/programa 2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/Root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Root.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +26,27 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="branchesCleanupHistory">
+      <BranchesCleanupHistory>
+        <option name="history">
+          <list>
+            <BranchCleanupEntry>
+              <option name="deletions">
+                <list>
+                  <BranchDeletion>
+                    <option name="hash" value="3ef354a393b36561fa4dd07daeccc6751b0ec971" />
+                    <option name="name" value="new-branch" />
+                  </BranchDeletion>
+                </list>
+              </option>
+              <option name="timestamp" value="1722412176918" />
+            </BranchCleanupEntry>
+          </list>
+        </option>
+      </BranchesCleanupHistory>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/iraneldf/paas-actaf.git",
@@ -133,7 +136,7 @@
       <workItem from="1722407461565" duration="300000" />
       <workItem from="1722408666307" duration="468000" />
       <workItem from="1722409155269" duration="869000" />
-      <workItem from="1722410054505" duration="1081000" />
+      <workItem from="1722410054505" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevos cambios en diseño pantallas añadidas">
       <option name="closed" value="true" />

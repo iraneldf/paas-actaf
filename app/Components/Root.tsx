@@ -10,9 +10,9 @@ const Root: NextPage = () => {
         <div className={styles.root}>
             <FrameComponent2 />
 
-            <FrameComponent3 rutaImagen="/images/esquema.png"/>  
+            <FrameComponent3 rutaImagen="/images/Esquema.png"/>
             <FrameComponent4 rutaImagen="/images/vaca.png" />   
-            <FrameComponent3 rutaImagen="/images/esquema2.png" />  
+            <FrameComponent3 rutaImagen="/images/Esquema2.png" />
             <FrameComponent4 rutaImagen="/images/frutas.png" />
 
 
