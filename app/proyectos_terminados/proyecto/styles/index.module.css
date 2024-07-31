@@ -1,0 +1,243 @@
+.elProyectoHa,
+.elProyectoPaas,
+.laEstrategiaPropuesta,
+.sePudoComprobar {
+    margin: 0;
+}
+
+.elProyectoPaasContainer {
+    height: 646px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.projectDetails {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 55px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: justify;
+    font-size: 24px;
+    color: #000;
+    font-family: Armata;
+}
+
+.shapes {
+    align-self: stretch;
+    height: 744px;
+    position: relative;
+}
+
+.principalesResultados {
+    margin: 0;
+    height: 91px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.resultTitle {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.incidenciaRelevanteEn {
+    margin-bottom: 0;
+}
+
+.incidenciaRelevanteEnPolti {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 32px;
+}
+
+.blankLine {
+    margin: 0;
+}
+
+.extensinDelCultivo {
+    margin-bottom: 0;
+}
+
+.extensinDelCultivoProtegid {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 32px;
+}
+
+.blankLine1 {
+    margin: 0;
+}
+
+.incrementoDelCultivo {
+    margin-bottom: 0;
+}
+
+.incrementoDelCultivoYLaPr {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 32px;
+}
+
+.blankLine2 {
+    margin: 0;
+}
+
+.fortalecimientoDeLa {
+    margin-bottom: 0;
+}
+
+.fortalecimientoDeLaProducci {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 32px;
+}
+
+.blankLine3 {
+    margin: 0;
+}
+
+.escaladoYDiversificacinDel {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 32px;
+}
+
+.incidenciaRelevanteEnContainer {
+    height: 444px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.clickAquPara,
+.resultImpact {
+    font-size: 24px;
+    text-align: left;
+    display: flex;
+    max-width: 100%;
+}
+
+.resultImpact {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 63px;
+    box-sizing: border-box;
+}
+
+.clickAquPara {
+    width: 819px;
+    height: 80px;
+    position: relative;
+    text-decoration: underline;
+    font-family: Armata;
+    color: #0a21f2;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.resultsContent {
+    flex: 1;
+    flex-direction: column;
+    gap: 42.5px;
+    max-width: 100%;
+}
+
+.resultsContent,
+.resultsContentWrapper,
+.root {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.resultsContentWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 29px 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 64px;
+    color: #000;
+    font-family: Armata;
+}
+
+.root {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    gap: 17px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+    .resultImpact {
+        padding-left: 31px;
+        padding-right: 31px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .principalesResultados {
+        font-size: 51px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .projectDetails {
+        padding-left: 27px;
+        padding-right: 27px;
+        box-sizing: border-box;
+    }
+
+    .resultsContent {
+        gap: 21px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .elProyectoPaasContainer {
+        font-size: 19px;
+    }
+
+    .principalesResultados {
+        font-size: 38px;
+    }
+
+    .clickAquPara,
+    .incidenciaRelevanteEnContainer {
+        font-size: 19px;
+    }
+}
