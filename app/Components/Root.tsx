@@ -15,7 +15,6 @@ const Root: NextPage = () => {
             <FrameComponent3 rutaImagen="/images/Esquema2.png" />
             <FrameComponent4 rutaImagen="/images/frutas.png" />
 
-
 {/* 
             <FrameComponent5 />
             <section className={styles.loremIpsumParent}>

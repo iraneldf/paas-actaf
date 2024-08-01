@@ -10,14 +10,16 @@ export type FootherType = {
 const Footer: NextPage<FootherType> = ({className = ""}) => {
     return (
         <div className={[styles.foother, className].join(" ")}>
+
             <div className={styles.rectangleParent}>
                 <div className={styles.frameChild}/>
                 <div className={styles.frameItem}/>
-                <div className={styles.frameInner} />
-                <div className={styles.frameInner} />
-                <div className={styles.frameInner} />
+                <div className={styles.frameInner}/>
+                <div className={styles.frameInner}/>
+                <div className={styles.frameInner}/>
                 <div className={styles.rectangleDiv}/>
             </div>
+
             <div className={styles.footherInner}>
                 <div className={styles.ellipseParent}>
                     <Image

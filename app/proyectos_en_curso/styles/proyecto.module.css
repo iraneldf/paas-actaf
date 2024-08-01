@@ -45,10 +45,6 @@
     padding: 20px;
 }
 
-.cardTitleDescription {
-    display: flex;
-    flex-direction: column;
-}
 
 .projectDetails {
     display: flex;
@@ -59,7 +55,7 @@
 .detailRow {
     display: flex;
     align-items: flex-start;
-    
+
 }
 
 .detailLabel {
@@ -70,6 +66,29 @@
 
 .detailContent {
     flex: 1;
+}
+
+.footer {
+    padding: 5px 10px 5px 10px;
+    flex-basis: 100%; /* Este elemento ocupará toda la línea */
+}
+
+.footerItemWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footerItem {
+    flex: 1;
+    background-color: #d9d9d9;
+    height: 50px;
+    min-width: 80px;
+    max-width: 80px;
 }
 
 .hoverOverlay {
@@ -95,8 +114,8 @@
 @media screen and (max-width: 768px) {
     .projectCard {
         flex-direction: column;
-        
-        
+
+
     }
 
     .cardImageIcon {
@@ -111,13 +130,31 @@
     .detailLabel {
         margin-bottom: 5px;
     }
+
+    .footer {
+        padding: 0 0 0 0;
+    }
+
+    .footerItemWrapper {
+        flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .footerItem {
+        background-color: #d9d9d9;
+        height: 30px;
+        min-width: 60px;
+        max-width: 60px;
+        flex: 1 1 60px; /* Permitir que los elementos crezcan y se encojan, con un ancho base de 150px */
+        box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total */
+    }
 }
 
 @media screen and (max-width: 450px) {
     .detailLabel,
     .detailContent {
         font-size: 14px;
-        
     }
 }
 

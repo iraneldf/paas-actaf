@@ -4,8 +4,6 @@ import Image from "next/image";
 
 const ProductosYResultadosDelPro: NextPage = () => {
     return (
-
-
         <main className={styles.main}>
 
             <section className={styles.program}>

@@ -1,7 +1,7 @@
 import type {NextPage} from "next";
 import styles from "./styles/index.module.css";
 
-const ProyectosEnCurso: NextPage = () => {
+const ProyectosTerminados: NextPage = () => {
     return (
         <div className={styles.proyectosEnCurso}>
             <main className={styles.proyectosEnCursoParent}>
@@ -139,4 +139,4 @@ const ProyectosEnCurso: NextPage = () => {
     );
 };
 
-export default ProyectosEnCurso;
+export default ProyectosTerminados;
