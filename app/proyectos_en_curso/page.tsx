@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import styles from "./styles/index.module.css";
-import ProyectoItem from "@/app/proyectos_en_curso/components/proyectoItem";
+import ProyectoItem from "@/app/Components/proyectoItem";
 
 const ProyectosEnCurso: NextPage = () => {
     return (

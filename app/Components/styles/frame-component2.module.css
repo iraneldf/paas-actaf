@@ -1,217 +1,16 @@
-.programaPaasActaf {
-    margin: 0;
-    flex: 1;
-    font-size: inherit;
-    letter-spacing: 0.01em;
-    font-weight: 400;
-    font-family: inherit;
-;
-
-    max-width: 100%;
-}
-.paasactafProgram {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 0 19px;
-    box-sizing: border-box;
-    top: 0;
-    z-index: 99;
-    max-width: 100%;
+.paasactafProgramParent {
+    border-radius: 2px;
+    background-color: #248628;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    padding: 26px 0 0;
     text-align: center;
-    font-size: 64px;
+    font-size: 24px;
     color: #fff;
     font-family: Armata;
-}
-.loremIpsumDolor {
-    flex: 1;
-    position: relative;
-    letter-spacing: 0.01em;
-    white-space: pre-wrap;
-    display: inline-block;
-    max-width: 100%;
-}
-.miniDescriptionWrapper {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 0 4px 0 0;
-    box-sizing: border-box;
-    max-width: 100%;
-}
-.loremFaChild {
-    height: 213px;
-    width: 272px;
-    position: relative;
-    background-color: #fff;
-    display: none;
-}
-.loremIpsumDolor1 {
-    height: 206px;
-    flex: 1;
-    position: relative;
-    letter-spacing: 0.01em;
-    white-space: pre-wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-.loremFa,
-.loremFaItem {
-    width: 272px;
-    background-color: #fff;
-}
-.loremFa {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 0 7px;
-    box-sizing: border-box;
-}
-.loremFaItem {
-    height: 213px;
-    position: relative;
-    display: none;
-}
-.loremIpsumDolor2 {
-    height: 206px;
-    flex: 1;
-    position: relative;
-    letter-spacing: 0.01em;
-    white-space: pre-wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-.loremFa1 {
-    width: 274px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 2px 7px 0;
-    box-sizing: border-box;
-}
-.loremFaInner {
-    height: 213px;
-    width: 272px;
-    position: relative;
-    background-color: #fff;
-    display: none;
-}
-.loremIpsumDolor3 {
-    height: 206px;
-    flex: 1;
-    position: relative;
-    letter-spacing: 0.01em;
-    white-space: pre-wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-.loremFa2 {
-    width: 272px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 0 7px;
-    box-sizing: border-box;
-}
-.frameChild {
-    position: absolute;
-    top: 0;
-    left: 4px;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
+
 }
 
-.loremIpsumDolor4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    letter-spacing: 0.01em;
-    white-space: pre-wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 272px;
-    height: 206px;
-    z-index: 1;
-}
-.rectangleParent {
-    height: 213px;
-    flex: 1;
-    position: relative;
-}
-
-.contentLorem,
-.contentLoremInner {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-.contentLoremInner {
-    width: 276px;
-    justify-content: flex-start;
-}
-.contentLorem {
-    align-self: stretch;
-    justify-content: space-between;
-    padding: 0 0 0 8px;
-    gap: 20px;
-    font-size: 20px;
-    color: #000;
-}
-.nestedContent,
-.nestedContentWrapper {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 100%;
-}
-.nestedContent {
-    flex: 2;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 33px;
-}
-.nestedContentWrapper {
-    width: 141000px;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0 18px;
-    box-sizing: border-box;
-}
-.photoGalleryChild {
-    height: 339px;
-    width: 1440px;
-    position: relative;
-    background-color: #fff;
-    display: none;
-    max-width: 100%;
-}
-.foto1Icon,
-.foto2Icon,
-.foto3Icon,
-.foto4Icon {
-    height: 272px;
-    width: 272px;
-    position: relative;
-    object-fit: cover;
-    min-height: 272px;
-    z-index: 1;
-}
 .paasactafProgramParent,
 .photoGallery {
     align-self: stretch;
@@ -221,47 +20,123 @@
     max-width: 100%;
 }
 
+.titulo {
+    padding: 0 0 19px;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    max-width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+}
+
+.contenido {
+    width: 100%;
+    padding: 0 18px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.textoDescripcion {
+    padding: 0 4px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+
+.ItemContenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ItemContenedor {
+    justify-content: space-evenly;
+    padding: 0 0 0 8px;
+    gap: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+.cuadroItem{
+    width: 270px;
+    box-sizing: border-box;
+}
+
+.cuadroTitulo {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #248628;
+    font-size: 22px;
+    margin: 5px 0 20px 0;
+}
+
+.cuadroTextoItem {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 0 7px;
+    box-sizing: border-box;
+}
+
+.textoCuadro {
+    height: 160px;
+    letter-spacing: 0.01em;
+}
+
 .photoGallery {
     background-color: #fff;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0 33px 67px 26px;
-    gap: 20px;
+    justify-content: space-evenly;
+    padding: 0 0 67px 0;
 }
-.paasactafProgramParent {
-    border-radius: 2px;
-    background-color: #248628;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 26px 0 0;
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
-    font-family: Armata;
+
+
+.photoGalleryContenedor{
+    height: 339px;
+    width: 1440px;
+    position: relative;
+    background-color: #fff;
+    display: none;
+    max-width: 100%;
 }
+
+.fotoIcon {
+    height: 272px;
+    width: 100%;
+    object-fit: fill;
+    min-height: 272px;
+
+}
+
+
 @media screen and (max-width: 1300px) {
-    .contentLorem {
+    .ItemContenedor {
         justify-content: center;
     }
-    .contentLorem,
+
+    .ItemContenedor,
     .photoGallery {
         flex-wrap: wrap;
     }
 }
+
 @media screen and (max-width: 800px) {
     .nestedContent {
         gap: 16px;
     }
 }
+
 @media screen and (max-width: 450px) {
-    .loremIpsumDolor {
+    .textoDescripcion {
         font-size: 19px;
     }
-    .loremIpsumDolor1,
-    .loremIpsumDolor2,
-    .loremIpsumDolor3,
-    .loremIpsumDolor4 {
+
+    .textoCuadro {
         font-size: 16px;
     }
 }

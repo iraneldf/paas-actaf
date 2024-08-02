@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import styles from "../styles/proyecto.module.css";
+import styles from "./styles/proyecto.module.css";
 import Link from 'next/link';
 import Image from "next/image";
 
@@ -17,6 +17,7 @@ const ProyectoItem: NextPage<FrameComponentType> = ({
     return (
         <Link href={projectLink} className={styles.projectLink}>
             <section className={`${styles.projectCardWrapper} ${className}`}>
+
                 <div className={styles.projectCard}>
 
                     <Image
@@ -29,7 +30,7 @@ const ProyectoItem: NextPage<FrameComponentType> = ({
                     />
 
                     <div className={styles.cardContent}>
-                        <div className={styles.cardTitleDescription}>
+
                             <div className={styles.projectDetails}>
 
                                 <div className={styles.detailRow}>
@@ -41,7 +42,7 @@ const ProyectoItem: NextPage<FrameComponentType> = ({
                                     <span className={styles.detailLabel}>Año:</span>
                                     <span className={styles.detailContent}>2023 - 2024</span>
                                 </div>
-                                
+
                                 <div className={styles.detailRow}>
                                     <span className={styles.detailLabel}>Descripción:</span>
                                     <span className={styles.detailContent}>
@@ -52,9 +53,33 @@ const ProyectoItem: NextPage<FrameComponentType> = ({
                                         corrupti est expedita aspernatur?
                                     </span>
                                 </div>
-                                
+
                             </div>
+
+                    </div>
+
+                    <div className={styles.footer}>
+
+                        <div className={styles.footerItemWrapper}>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
+                            <div className={styles.footerItem}/>
                         </div>
+
+
                     </div>
 
                     <div className={styles.hoverOverlay}>
@@ -62,6 +87,7 @@ const ProyectoItem: NextPage<FrameComponentType> = ({
                     </div>
 
                 </div>
+
             </section>
         </Link>
     );

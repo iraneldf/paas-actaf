@@ -9,101 +9,141 @@ export type FrameComponent2Type = {
 const FrameComponent2: NextPage<FrameComponent2Type> = ({className = ""}) => {
     return (
         <section className={[styles.paasactafProgramParent, className].join(" ")}>
-            <header className={styles.paasactafProgram}>
-                <h1 className={styles.programaPaasActaf}>Programa PAAS-ACTAF</h1>
-            </header>
-            <div className={styles.nestedContentWrapper}>
-                <div className={styles.nestedContent}>
-                    {/*Encabezado*/}
-                    <div className={styles.miniDescriptionWrapper}>
-                        <div className={styles.loremIpsumDolor}>
-                            Texto encabezado Lorem ipsum dolor sit amet. Eum reprehenderit minima ut ipsam
-                            galisum a nihil tenetur ea quaerat quibusdam sit quisquam laborum
-                            qui aliquid dolorem aut dolores quam. Non quia sunt non quia autem
-                            et deleniti nobis! Sed error doloremque et itaque libero quo
-                            quidem eius id praesentium doloribus qui soluta tempora hic
-                            maiores maxime. Sed voluptatem impedit et quia sunt et aperiam
-                            autem est facere quos sit nemo doloribus quo praesentium omnis 33
-                            sunt voluptatem.
+
+            <h1 className={styles.titulo}>Programa de Colaboración Internacional para el Apoyo a una
+                Agricultura Sostenible en Cuba, PAAS-ACTAF.</h1>
+
+            <div className={styles.contenido}>
+
+                <div className={styles.textoDescripcion}>
+                    Este Programa propone como estrategia, gestionar, acompañar y apoyar proyectos que promuevan
+                    y contribuyan a la implementación de los Planes de Soberanía Alimentaria y Educación
+                    Nutricional a escala municipal, mediante la consolidación y generalización de un modelo de
+                    gestión de cadenas de valor, en fincas auto-sostenibles que a su vez sirvan de referencia al
+                    resto del país, multiplicando resultados y buenas ya logradas por PAAS.
+
+                </div>
+
+                {/*cuadros de texto*/}
+                <div className={styles.ItemContenedor}>
+
+                    <div className={styles.cuadroItem}>
+                        <div className={styles.cuadroTextoItem}>
+                            <h4 className={styles.cuadroTitulo}>Producción primaria</h4>
+                            <div className={styles.textoCuadro}>
+                                Contemplando las diferentes producciones que se desarrollan en fincas, cooperativas y
+                                otras
+                                formas productivas.
+                            </div>
                         </div>
+                        <Image
+                            className={styles.fotoIcon}
+                            loading="lazy"
+                            width={100}
+                            height={100}
+                            alt=""
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto1.png`}
+                        />
                     </div>
-                    {/*cuadros de texto*/}
-                    <div className={styles.contentLorem}>
-                        <div className={styles.loremFa}>
-                            <div className={styles.loremFaChild}/>
-                            <div className={styles.loremIpsumDolor1}>
-                                Lorem ipsum dolor sit amet. Et tempora esse eum facilis dolorum
-                                cum omnis impedit. Sed distinctio dolorem est ducimus quia et
-                                quod iusto et provident.
+
+                    <div className={styles.cuadroItem}>
+                        <div className={styles.cuadroTextoItem}>
+                            <h4 className={styles.cuadroTitulo}>Cosecha y beneficio</h4>
+                            <div className={styles.textoCuadro}>
+                                Desde la planeación de cosecha y de momentos de acopio de la producción, hasta su
+                                beneficio.
                             </div>
                         </div>
-                        <div className={styles.loremFa1}>
-                            <div className={styles.loremFaItem}/>
-                            <div className={styles.loremIpsumDolor2}>
-                                Lorem ipsum dolor sit amet. Et tempora esse eum facilis dolorum
-                                cum omnis impedit. Sed distinctio dolorem est ducimus quia et
-                                quod iusto et provident.
+                        <Image
+                            className={styles.fotoIcon}
+                            loading="lazy"
+                            alt=""
+                            width={100}
+                            height={100}
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto2.png`}
+                        />
+                    </div>
+                    <div className={styles.cuadroItem}>
+                        <div className={styles.cuadroTextoItem}>
+                            <h4 className={styles.cuadroTitulo}>Procesamiento</h4>
+                            <div className={styles.textoCuadro}>
+                                Contempla las diferentes alternativas para una mayor variedad de ofertas y conservación
+                                a
+                                medio y largo plazo.
                             </div>
                         </div>
-                        <div className={styles.loremFa2}>
-                            <div className={styles.loremFaInner}/>
-                            <div className={styles.loremIpsumDolor3}>
-                                Lorem ipsum dolor sit amet. Et tempora esse eum facilis dolorum
-                                cum omnis impedit. Sed distinctio dolorem est ducimus quia et
-                                quod iusto et provident.
+                        <Image
+                            className={styles.fotoIcon}
+                            loading="lazy"
+                            alt=""
+                            width={100}
+                            height={100}
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto3.png`}
+                        />
+                    </div>
+
+                    <div className={styles.cuadroItem}>
+                        <div className={styles.cuadroTextoItem}>
+                            <h4 className={styles.cuadroTitulo}>Comercialización</h4>
+                            <div className={styles.textoCuadro}>
+                                Para lograr el acceso de toda la población de una elevada variedad de ofertas de un
+                                producto
+                                de calidad y estabilidad
                             </div>
                         </div>
-                        <div className={styles.contentLoremInner}>
-                            <div className={styles.rectangleParent}>
-                                <div className={styles.frameChild}/>
-                                <div className={styles.loremIpsumDolor4}>
-                                    Lorem ipsum dolor sit amet. Et tempora esse eum facilis
-                                    dolorum cum omnis impedit. Sed distinctio dolorem est ducimus
-                                    quia et quod iusto et provident.
-                                </div>
-                            </div>
-                        </div>
+                        <Image
+                            className={styles.fotoIcon}
+                            loading="lazy"
+                            alt=""
+                            width={100}
+                            height={100}
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto4.png`}
+                        />
                     </div>
 
                 </div>
 
             </div>
-            {/*cudros de fotos*/}
-            <div className={styles.photoGallery}>
-                <div className={styles.photoGalleryChild}/>
-                <Image
-                    className={styles.foto1Icon}
-                    loading="lazy"
-                    width={500}
-                    height={300}
-                    alt=""
-                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto1.png`}
-                />
-                <Image
-                    className={styles.foto2Icon}
-                    loading="lazy"
-                    alt=""
-                    width={500}
-                    height={300}
-                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto2.png`}
-                />
-                <Image
-                    className={styles.foto4Icon}
-                    loading="lazy"
-                    alt=""
-                    width={500}
-                    height={300}
-                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto3.png`}
-                />
-                <Image
-                    className={styles.foto3Icon}
-                    loading="lazy"
-                    alt=""
-                    width={500}
-                    height={300}
-                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto4.png`}
-                />
-            </div>
+
+            {/*/!*cuadros de fotos*!/*/}
+            {/*<div className={styles.photoGallery}>*/}
+
+            {/*    <div className={styles.photoGalleryContenedor}/>*/}
+            {/*    <Image*/}
+            {/*        className={styles.fotoIcon}*/}
+            {/*        loading="lazy"*/}
+            {/*        width={500}*/}
+            {/*        height={300}*/}
+            {/*        alt=""*/}
+            {/*        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto1.png`}*/}
+            {/*    />*/}
+            {/*    <Image*/}
+            {/*        className={styles.fotoIcon}*/}
+            {/*        loading="lazy"*/}
+            {/*        alt=""*/}
+            {/*        width={500}*/}
+            {/*        height={300}*/}
+            {/*        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto2.png`}*/}
+            {/*    />*/}
+            {/*    <Image*/}
+            {/*        className={styles.fotoIcon}*/}
+            {/*        loading="lazy"*/}
+            {/*        alt=""*/}
+            {/*        width={500}*/}
+            {/*        height={300}*/}
+            {/*        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto3.png`}*/}
+            {/*    />*/}
+            {/*    <Image*/}
+            {/*        className={styles.fotoIcon}*/}
+            {/*        loading="lazy"*/}
+            {/*        alt=""*/}
+            {/*        width={500}*/}
+            {/*        height={300}*/}
+            {/*        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto4.png`}*/}
+            {/*    />*/}
+            {/*</div>*/}
+
+
         </section>
     );
 };
