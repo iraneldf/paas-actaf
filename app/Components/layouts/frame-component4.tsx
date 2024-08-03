@@ -6,21 +6,29 @@ import Image from "next/image";
 export type FrameComponent4Type = {
     className?: string;
     rutaImagen?: string;
+    title?: string;
+    text?: string;
 };
 
-const FrameComponent4: NextPage<FrameComponent4Type> = ({ className = "", rutaImagen }) => {
+const FrameComponent4: NextPage<FrameComponent4Type> = ({
+                                                            className = "",
+                                                            rutaImagen,
+                                                            title,
+                                                            text
+                                                        }) => {
     return (
 
-        
+
         <section className={[styles.rectangleParent, className].join(" ")}>
             <div className={styles.textContainer}>
-                <FrameComponent/>
+                <FrameComponent title={title}
+                                text={text}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image 
+                <Image
                     width={100}
                     height={100}
-                    className={styles.frameChild} 
+                    className={styles.frameChild}
                     loading="lazy"
                     alt="frutas.png"
                     src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}${rutaImagen}`}/>

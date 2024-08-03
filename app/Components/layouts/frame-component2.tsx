@@ -105,43 +105,6 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({className = ""}) => {
 
             </div>
 
-            {/*/!*cuadros de fotos*!/*/}
-            {/*<div className={styles.photoGallery}>*/}
-
-            {/*    <div className={styles.photoGalleryContenedor}/>*/}
-            {/*    <Image*/}
-            {/*        className={styles.fotoIcon}*/}
-            {/*        loading="lazy"*/}
-            {/*        width={500}*/}
-            {/*        height={300}*/}
-            {/*        alt=""*/}
-            {/*        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto1.png`}*/}
-            {/*    />*/}
-            {/*    <Image*/}
-            {/*        className={styles.fotoIcon}*/}
-            {/*        loading="lazy"*/}
-            {/*        alt=""*/}
-            {/*        width={500}*/}
-            {/*        height={300}*/}
-            {/*        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto2.png`}*/}
-            {/*    />*/}
-            {/*    <Image*/}
-            {/*        className={styles.fotoIcon}*/}
-            {/*        loading="lazy"*/}
-            {/*        alt=""*/}
-            {/*        width={500}*/}
-            {/*        height={300}*/}
-            {/*        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto3.png`}*/}
-            {/*    />*/}
-            {/*    <Image*/}
-            {/*        className={styles.fotoIcon}*/}
-            {/*        loading="lazy"*/}
-            {/*        alt=""*/}
-            {/*        width={500}*/}
-            {/*        height={300}*/}
-            {/*        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX || ''}/images/Foto4.png`}*/}
-            {/*    />*/}
-            {/*</div>*/}
 
 
         </section>

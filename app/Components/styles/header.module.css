@@ -1,11 +1,10 @@
 .header {
     display: flex;
     width: 100%;
-    flex-direction: row;
     justify-content: space-between;
     padding: 0 0 4px;
-    line-height: normal;
-    letter-spacing: normal;
+    /*line-height: normal;*/
+    /*letter-spacing: normal;*/
     text-align: center;
     font-size: 24px;
     color: #000;
@@ -35,7 +34,7 @@
 .navItem {
     text-decoration: none;
     font-family: Armata;
-    max-width: 133px;
+    max-width: 160px;
     color: inherit;
 }
 
@@ -58,7 +57,7 @@
     
 }
 
-@media screen and (max-width: 768px) and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .header {
         justify-content: center;
     }

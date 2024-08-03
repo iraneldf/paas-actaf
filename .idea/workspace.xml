@@ -4,21 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77891d5-a089-4345-9316-e63fa1aa4a61" name="Changes" comment="arreglando proyectos en curso">
-      <change afterPath="$PROJECT_DIR$/public/images/proyectos terminados/proyecto terminado  1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/proyectos terminados/proyecto terminado 2.png" afterDir="false" />
+    <list default="true" id="b77891d5-a089-4345-9316-e63fa1aa4a61" name="Changes" comment="puliendo estilo de pagina principal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Components/Root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/layouts/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/layouts/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/layouts/frame-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/layouts/frame-component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Components/layouts/frame-component2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/layouts/frame-component2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/layouts/frame-component3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/layouts/frame-component3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/layouts/frame-component4.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/layouts/frame-component4.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/styles/Root.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/styles/Root.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/styles/frame-component.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/styles/frame-component.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/styles/frame-component1.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/styles/frame-component1.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Components/styles/frame-component2.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/styles/frame-component2.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proyectos_en_curso/components/proyectoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/proyectoItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proyectos_en_curso/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/proyectos_en_curso/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/styles/frame-component3.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/styles/frame-component3.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/styles/frame-component4.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/styles/frame-component4.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/styles/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/styles/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/nuestro_equipo/styles/miembro.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/nuestro_equipo/styles/miembro.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/proyectos_en_curso/proyecto/styles/search-page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/proyectos_en_curso/proyecto/styles/search-page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proyectos_en_curso/styles/proyecto.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/styles/proyecto.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proyectos_terminados/components/proyectoItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proyectos_terminados/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/proyectos_terminados/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proyectos_terminados/styles/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/proyectos_terminados/styles/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proyectos_terminados/styles/proyecto.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Foto1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Foto1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Foto2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Foto2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Foto3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Foto3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Foto4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Foto4.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +91,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Rebasing master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Proyectos/paas-actaf/public/images/proyectos terminados",
+    "last_opened_file_path": "E:/Proyectos/paas-actaf/public/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,6 +107,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Proyectos\paas-actaf\public\images" />
       <recent name="E:\Proyectos\paas-actaf\public\images\proyectos terminados" />
       <recent name="E:\Proyectos\paas-actaf\app\proyectos_terminados" />
     </key>
@@ -165,7 +173,8 @@
       <workItem from="1722486148394" duration="9167000" />
       <workItem from="1722532733717" duration="1826000" />
       <workItem from="1722559595300" duration="3812000" />
-      <workItem from="1722564217485" duration="7930000" />
+      <workItem from="1722564217485" duration="8358000" />
+      <workItem from="1722651214508" duration="16108000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevos cambios en diseño pantallas añadidas">
       <option name="closed" value="true" />
@@ -191,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722497573253</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="puliendo estilo de pagina principal">
+      <option name="closed" value="true" />
+      <created>1722587371966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722587371966</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +230,7 @@
     <MESSAGE value="nuevas pantallas" />
     <MESSAGE value="ruta de imagenes" />
     <MESSAGE value="arreglando proyectos en curso" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglando proyectos en curso" />
+    <MESSAGE value="puliendo estilo de pagina principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="puliendo estilo de pagina principal" />
   </component>
 </project>

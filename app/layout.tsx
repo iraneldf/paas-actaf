@@ -1,7 +1,7 @@
 import type {Metadata} from "next";
 import {Inter} from "next/font/google";
 import "./globals.css";
-import Header from "@/app/Components/layouts/Header";
+import NavBar from "@/app/Components/layouts/NavBar";
 import Footer from "@/app/Components/layouts/Footer";
 import React from "react";
 
@@ -20,7 +20,7 @@ export default function RootLayout({
     return (
         <html lang="es">
         <body className={inter.className}>
-        <Header/>
+        <NavBar/>
         <main>{children}</main>
         <Footer/>
         </body>

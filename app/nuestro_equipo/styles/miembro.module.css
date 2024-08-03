@@ -76,7 +76,7 @@
 
 
 @media screen and (max-width: 450px) {
-    .frameWrapper {
+    .contenedor {
         padding-left: 20px;
         padding-right: 20px;
         box-sizing: border-box;

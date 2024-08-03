@@ -1,97 +1,44 @@
-.loremIpsum {
-    margin: 0;
-    align-self: stretch;
-    position: relative;
-    font-size: inherit;
-    letter-spacing: 0.01em;
-    font-weight: 400;
-    font-family: inherit;
-}
-.estDoloreLaborum,
-.estDoloreLaborum1,
-.estVoluptasPossimus,
-.loremIpsumDolor {
-    margin: 0;
-    white-space: pre-wrap;
-}
-.loremIpsumDolorContainer {
-    flex: 1;
-    position: relative;
-    letter-spacing: 0.01em;
-    display: inline-block;
-    max-width: 100%;
-}
-.loremIpsumParent,
-.obcaecati,
+
 .root {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
-}
-.obcaecati {
-    align-self: stretch;
-    flex-direction: row;
-    padding: 0 52px;
-    box-sizing: border-box;
-    max-width: 100%;
-    font-size: 24px;
-    color: #000;
-}
-.loremIpsumParent,
-.root {
     flex-direction: column;
-}
-.loremIpsumParent {
-    align-self: stretch;
-    border-radius: 2px;
-    background-color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-sizing: border-box;
-    overflow: hidden;
-    padding: 21px 0 139px;
-    gap: 82px;
-    max-width: 100%;
-    text-align: center;
-    font-size: 64px;
-    color: #ff7c03;
-    font-family: Armata;
-}
-.root {
     width: 100%;
-    position: relative;
     line-height: normal;
     letter-spacing: normal;
 }
-@media screen and (max-width: 1125px) {
-    .loremIpsumParent {
-        padding-top: 20px;
-        padding-bottom: 90px;
-        box-sizing: border-box;
-    }
+
+.Encabezado {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-height: 218px;
+    box-sizing: border-box;
 }
-@media screen and (max-width: 800px) {
-    .loremIpsum {
-        font-size: 51px;
-    }
-    .obcaecati {
-        padding-left: 26px;
-        padding-right: 26px;
-        box-sizing: border-box;
-    }
-    .loremIpsumParent {
-        gap: 41px;
-    }
+
+.TextoEncabezado {
+    font-family: Armata, serif;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%; /* Usa un porcentaje del ancho */
+    font-size: 40px;
+    font-weight: normal;
 }
-@media screen and (max-width: 450px) {
-    .loremIpsum {
-        font-size: 38px;
-    }
-    .loremIpsumDolorContainer {
-        font-size: 19px;
-    }
-    .loremIpsumParent {
-        gap: 20px;
-        padding-bottom: 58px;
-        box-sizing: border-box;
+
+.restoComponentes {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .TextoEncabezado {
+        font-size: 25px;
+        overflow-wrap: break-word;
     }
 }

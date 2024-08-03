@@ -1,9 +1,6 @@
 .rectangleParent {
     align-self: stretch;
     border-radius: 2px;
-    background-color: #ef8422;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-sizing: border-box;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -13,7 +10,11 @@
     text-align: center;
     font-size: 24px;
     color: #000;
-    font-family: Armata;
+    font-family: Armata, serif;
+}
+
+.textContainer {
+    background-color: #ef8422;
 }
 
 .imageContainer,
@@ -43,8 +44,3 @@
     }
 }
 
-@media screen and (max-width: 800px) {
-    .rectangleParent {
-        gap: 22px;
-    }
-}
