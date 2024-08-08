@@ -1,4 +1,4 @@
-.contenedor{
+.projectCardWrapper{
     width: 770px;
     padding: 15px 0 0;
     box-sizing: border-box;
@@ -34,13 +34,13 @@
 
 }
 @media screen and (max-width: 800px) {
-    .contenedor {
+    .projectCardWrapper {
         min-width: 100%;
         gap: 53px;
     }
 }
 @media screen and (max-width: 450px) {
-    .contenedor {
+    .projectCardWrapper {
         font-size: 19px;
         gap: 27px;
     }

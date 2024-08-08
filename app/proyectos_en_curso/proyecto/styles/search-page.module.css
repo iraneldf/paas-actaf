@@ -238,7 +238,7 @@
     padding: 0 24px 0 20px;
 }
 
-.contenedor,
+.projectCardWrapper,
 .rectangleGroup {
     display: flex;
     flex-direction: column;
@@ -254,7 +254,7 @@
     z-index: 1;
 }
 
-.contenedor {
+.projectCardWrapper {
     width: 312px;
     padding: 0 15px 0 0;
     box-sizing: border-box;
@@ -516,7 +516,7 @@
     text-align: center;
     font-size: 16px;
     color: #248628;
-    font-family: Armata;
+    font-family: Armata, sans-serif;
 }
 
 .secondProfileDetailsChild {
@@ -903,7 +903,7 @@
     text-align: center;
     font-size: 16px;
     color: #248628;
-    font-family: Armata;
+    font-family: Armata, sans-serif;
 }
 
 .searchPage {
@@ -912,7 +912,6 @@
     flex-direction: column;
     padding: 236px 58px 110px;
     gap: 128px;
-    background-image: url(/search-page@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
