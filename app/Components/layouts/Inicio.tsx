@@ -16,7 +16,7 @@ const FotoInicio: NextPage = () => {
                 />
             </div>
             <section className={styles.haciaUnaAgricultura}>
-                Hacia una agricultura sostenible
+                Por un mayor acceso a una alimentación sana, diversa y estable de la población de Cuba
             </section>
         </div>
     );
