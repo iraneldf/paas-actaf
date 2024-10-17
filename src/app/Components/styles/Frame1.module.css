@@ -1,0 +1,50 @@
+.programaPaasActaf {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+}
+.page,
+.programaPaasActafWrapper {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.programaPaasActafWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 19px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 64px;
+    color: #fff;
+    font-family: Armata;
+}
+.page {
+    width: 100%;
+    position: relative;
+    border-radius: 2px;
+    background-color: #248628;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    flex-direction: column;
+    padding: 26px 0 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+    .programaPaasActaf {
+        font-size: 51px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .programaPaasActaf {
+        font-size: 38px;
+    }
+}

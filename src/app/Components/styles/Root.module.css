@@ -1,0 +1,44 @@
+
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.Encabezado {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-height: 218px;
+    box-sizing: border-box;
+}
+
+.TextoEncabezado {
+    font-family: Armata, serif;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%; /* Usa un porcentaje del ancho */
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.restoComponentes {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .TextoEncabezado {
+        font-size: 25px;
+        overflow-wrap: break-word;
+    }
+}

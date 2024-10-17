@@ -1,0 +1,48 @@
+.proyectosEnCurso {
+    width: 100%;
+    position: relative;
+    border-radius: 2px;
+    background-color: #e9e2e2;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: Armata, sans-serif;
+    padding: 0 0 50px;
+    line-height: normal;
+    letter-spacing: normal;
+    align-self: stretch;
+    gap: 30px;
+}
+
+.titulo {
+    align-self: stretch;
+    position: relative;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+}
+
+@media screen and (max-width: 975px) {
+
+    .proyectosEnCurso {
+        gap: 17px;
+    }
+
+    .titulo {
+        font-size: 51px;
+    }
+
+    .proyectosContenedor {
+        gap: 18px;
+       
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .titulo {
+        font-size: 38px;
+    }
+}

@@ -1,0 +1,121 @@
+.paasactafProgramParent {
+    border-radius: 2px;
+    background: linear-gradient(to bottom,
+    #248628 calc(100% - 277px),
+    #ffffff 0);
+    flex-direction: column;
+    padding: 26px 0 0;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: Armata, serif;
+
+}
+
+.paasactafProgramParent,
+.photoGallery {
+    align-self: stretch;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.titulo {
+    padding: 0 0 19px;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    max-width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    font-family: Carme, sans-serif;
+}
+
+.contenido {
+    width: 100%;
+    padding: 0 18px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.textoDescripcion {
+    padding: 0 4px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+
+.ItemContenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ItemContenedor {
+    justify-content: space-between;
+    padding: 0 0 0 8px;
+    gap: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+.cuadroItem {
+    width: 270px;
+    box-sizing: border-box;
+}
+
+.cuadroTitulo {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #248628;
+    font-size: 22px;
+    margin: 5px 0 20px 0;
+}
+
+.cuadroTextoItem {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 0 7px;
+    box-sizing: border-box;
+}
+
+.textoCuadro {
+    height: 160px;
+    letter-spacing: 0.01em;
+}
+
+.fotoIcon {
+    height: 272px;
+    width: 100%;
+    object-fit: fill;
+    min-height: 272px;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .ItemContenedor {
+        justify-content: center;
+    }
+
+    .ItemContenedor,
+    .photoGallery {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .textoDescripcion {
+        font-size: 19px;
+    }
+
+    .textoCuadro {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,180 @@
+.root {
+    width: 100%;
+    position: relative;
+    border-radius: 2px;
+    background-color: rgba(36, 134, 40, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 123px 45px 87px;
+    gap: 73px;
+    font-family: Armata, sans-serif;
+    color: #000;
+    font-size: 40px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('/images/contactos/fondo.png');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 400px;
+    z-index: 1;
+}
+
+.formMapContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(36, 134, 40, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+}
+
+.datosDeContacto {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.messageForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea {
+    width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+}
+
+.submitContainer {
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background-color: #ef8422;
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: Armata;
+    border-radius: 5px;
+}
+
+.submitContainer:hover {
+    background-color: #bd5200;
+}
+
+.mapContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.buttonShapeIcon {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+
+        margin-top: 800px;
+
+    }
+
+    .formMapContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form,
+    .mapContainer {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .formInputs {
+        flex-direction: column;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .textarea {
+        width: 100%;
+    }
+}
