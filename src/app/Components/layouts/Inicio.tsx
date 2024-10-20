@@ -1,8 +1,7 @@
-import { NextPage } from "next";
 import Image from "next/image";
 import styles from "../styles/index.module.css";
 
-const FotoInicio: NextPage = () => {
+const FotoInicio: () => JSX.Element = () => {
     return (
         <div className={styles.fotoInicio}>
             <div className={styles.imageContainer}>

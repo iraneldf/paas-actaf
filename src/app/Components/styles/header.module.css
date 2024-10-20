@@ -1,75 +1,169 @@
-.header {
+/* Basic styles for the navbar */
+.navbar {
     display: flex;
-    width: 100%;
     justify-content: space-between;
-    padding: 0 0 4px;
-    /*line-height: normal;*/
-    /*letter-spacing: normal;*/
-    text-align: center;
-    font-size: 24px;
-    color: #000;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #28a745;
+    /* Green background */
+    color: #fff;
+    box-sizing: border-box;
 }
 
-.logo {
-    height: 124px;
-    width: 244px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.aboutProjects {
+/* Navigation links styling */
+.nav_links {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    /* Cambiado para evitar que se desborde */
-    padding: 25.5px 0 0;
-    max-width: 100%;
-    /* Mantiene el contenedor dentro del ancho de la pantalla */
-    overflow: hidden;
-    /* Evita que el contenido se desborde */
-    gap: 20px;
+    list-style: none;
 }
 
-.navItem {
+.nav_links li {
+    margin: 0 15px;
+}
+
+.nav_links a {
+    color: #fff;
     text-decoration: none;
-    font-family: Armata;
-    max-width: 160px;
-    color: inherit;
+    font-size: 18px;
+    transition: color 0.3s, text-decoration 0.3s, background-color 0.3s;
+    padding: 5px 10px;
 }
 
-.productosResultados {
-    min-width: 200px;
-    /* Asegúrate de que tenga un ancho mínimo */
-    max-width: 300px;
-    /* O establece un ancho máximo si es necesario */
+.nav_links a:hover,
+.nav_links a.active {
+    color: #e0e0e0;
+    /* Lighter color for active/hover */
+    background-color: #1c7430;
+    /* Darker green background on hover */
+    border-radius: 4px;
+    /* Optional: rounded corners */
 }
 
-@media screen and (max-width: 1108px) {
-
-    .header,
-    .aboutProjects {
-        flex-wrap: wrap;
-    }
-         .header {
-             justify-content: center;
-         }
-    
+/* Menu toggle button for mobile view */
+.menu_toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
-    .header {
-        justify-content: center;
-    }
+.menu_toggle .bar {
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 5px;
+}
 
-    .aboutProjects {
+/* Responsive styling */
+@media (max-width: 1000px) {
+    .nav_links {
         flex-direction: column;
-        /* Cambiar a columna en pantallas más pequeñas */
-        align-items: center;
-        /* Centrar los elementos */
+        position: absolute;
+        width: 95vw;
+        top: 70px;
+        left: 10px;
+        right: 10px;
+        margin: auto;
+        background-color: rgba(40, 167, 69, 0.88);
+        /* Green background for mobile view */
+        z-index: 2;
+    }
+
+    .d_none {
+        display: none;
+    }
+
+    .nav_links.active {
+        display: flex;
+    }
+
+    .nav_links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu_toggle {
+        display: flex;
     }
 }
 
-.active {
-    color: #a6b92f;
-}
+
+/*.header {*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    height: 60px;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    margin: 0;*/
+/*    padding: 10px 20px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.logoContainer {*/
+/*    width: 100px;*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*.logo {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    max-width: 200px;*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*.navList {*/
+/*    display: flex;*/
+/*    flex-grow: 1;*/
+/*}*/
+
+/*.navList {*/
+/*    display: flex;*/
+/*    list-style-type: none;*/
+/*    padding-left: 0;*/
+/*}*/
+
+/*.navItem {*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*.link {*/
+/*    color: #333;*/
+/*    text-decoration: none;*/
+/*    transition: color 0.2s ease;*/
+/*}*/
+
+/*.link:hover {*/
+/*    color: #666;*/
+/*}*/
+
+/*!*.toggleButton {*!*/
+/*!*    background: transparent;*!*/
+/*!*    border: none;*!*/
+/*!*    cursor: pointer;*!*/
+/*!*    outline: none;*!*/
+/*!*    padding: 0;*!*/
+/*!*    z-index: 100;*!*/
+/*!*}*!*/
+
+/*@media (max-width: 768px) {*/
+/*    .navigation {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .toggleButton {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 769px) {*/
+/*    .toggleButton {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .navigation {*/
+/*        display: flex;*/
+/*    }*/
+/*}*/
+
+/*.active {*/
+/*    color: #a6b92f;*/
+/*}*/
